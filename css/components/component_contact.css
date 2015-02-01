@@ -1,0 +1,196 @@
+/*------------------------------------------------------------------
+Project:  Mos7 - Responsive Bootstrap 3 App Landing Page Template
+Version:  1.3
+Last change:  29/12/2014
+Design by:  TemplatesPRO.com.br
+
+Component (line):
+1) CONTACT (16)
+    - Section Content (22)
+    - Map (46)
+    - Vcard over the map (59)
+    - Form (133)
+-------------------------------------------------------------------*/
+
+/********************************************************************
+ 1) CONTACT
+ *********/
+
+.contact { padding-top: 50px; }
+.contact .container-fluid .c1 { padding: 0; }
+
+/* Section Content */
+.contact .collapse {
+  display: block;
+  height: 1px !important;
+  background-color: #2b3e50;
+}
+.contact .collapse .panel-body { display: none; }
+.contact .collapsing .panel-body { padding: 0; }
+.contact .collapse.in {
+  display: block;
+  height: auto !important;
+  background-color: #2b3e50;
+}
+.contact .collapse.in .panel-body {
+  padding: 0;
+  display: block;
+}
+@media (min-width: 992px) {
+  .contact .collapse {
+    display: none;
+    height: 0 !important;
+  }
+}
+
+/* Map */
+.contact .map-wrapper {
+  position: relative;
+  margin: 0;
+}
+.container-fluid .contact .map-wrapper { margin: 0 -30px; }
+.contact #map-canvas {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 400px;
+}
+
+/* Vcard over the map */
+.contact .vcard {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  margin: auto !important;
+  border: 1px solid #ddd;
+  width: 80%;
+  height: 55%;
+  font-size: 1em;
+  border-radius: 10px;
+  color: #2b3e50;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+  background-color: #fff;
+  opacity: 0.9;
+}
+@media (min-width: 480px) {
+  .contact .vcard {
+    width: 60%;
+    height: 60%;
+    font-size: 1.1em;
+  }
+}
+@media (min-width: 768px) {
+  .contact .vcard { width: 40%; }
+}
+@media (min-width: 992px) {
+  .contact .vcard { width: 30%; }
+}
+@media (min-width: 1200px) {
+  .contact .vcard { width: 25%; }
+}
+.contact .vcard .close { color: #2b3e50; }
+.contact .org { text-align: center; }
+.contact .org,
+.contact .adr,
+.contact .tel { margin-bottom: 10px; }
+.contact .street-address,
+.contact .tel-1,
+.contact .tel-2,
+.contact .email-contact,
+.contact .email-suport { display: block; }
+.contact .street-address:before {
+  content: "\f041";
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+  font-family: FontAwesome;
+  text-align: center;
+}
+.contact .locality { margin-left: 30px; }
+.contact .tel-1:before {
+  content: "\f095";
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+  font-family: FontAwesome;
+  text-align: center;
+}
+.contact .tel-2 { margin-left: 30px; }
+.contact .email-contact:before {
+  content: "\f0e0";
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+  font-family: FontAwesome;
+  text-align: center;
+}
+.contact .email-support { margin-left: 30px; }
+.contact .vcard a { color: #d9534f; }
+
+/* Form */
+.contact .r1 .c2,
+.contact .r2 .c2,
+.contact .r3 .c2,
+.contact .r3 .c3,
+.contact .r4 .c2 { margin-top: 15px; }
+@media (min-width: 768px) {
+  .contact .r1 .c2,
+  .contact .r2 .c2,
+  .contact .r3 .c2,
+  .contact .r3 .c3,
+  .contact .r4 .c2 { margin-top: 0; }
+}
+.contact .section-header { margin-bottom: 120px; }
+.contact .map-title {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  right: 0;
+  z-index: 10;
+  padding-top: 10px;
+  margin: auto;
+  border: 3px solid #2b3e50;
+  width: 100px;
+  height: 100px;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px #7a8691;
+  background-color: #2b3e50;
+}
+.contact .map-title:hover {
+  background-color: #d9534f;
+  box-shadow: 0 0 0 1px #2b3e50;
+}
+.contact .map-title a {
+  text-decoration: none;
+  color: #d9534f;
+}
+.contact .map-title:hover a { color: #fff; }
+.contact .map-title .glyphicon {
+  font-size: 1.4em;
+}
+.contact #contact-accordion-1 { margin-bottom: 20px; }
+.contact .alert { margin: 40px 0 -20px; }
+.contact .alerts-xs .alert { margin: 0; }
+.contact .contact-form { margin-top: 40px; }
+.contact legend { display: none; }
+.contact .btn {
+  display: block;
+  margin:0 auto 10px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .contact .btn { width: auto; }
+}
+.contact .btn:before {
+  content: "\e171";
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+  font-family: 'Glyphicons Halflings';
+}

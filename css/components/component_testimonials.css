@@ -1,0 +1,136 @@
+/*------------------------------------------------------------------
+Project:  Mos7 - Responsive Bootstrap 3 App Landing Page Template
+Version:  1.3
+Last change:  29/12/2014
+Design by:  TemplatesPRO.com.br
+
+Component (line):
+1) TESTIMONIALS (14)
+    - Controls (23)
+    - Section Content (59)
+-------------------------------------------------------------------*/
+
+/********************************************************************
+ 1) TESTIMONIALS
+ **************/
+
+.testimonials {
+  padding: 50px 0 55px;
+  background-color: #253646;
+}
+.testimonials .section-header { margin-bottom: 220px; }
+
+/* Controls */
+.testimonials .carousel.fade .testimonials-controls {
+  position: absolute;
+  left: 0;
+  top: -140px;
+  right: 0;
+  z-index: 10;
+  padding: 0 7px 0 5px;
+  margin: auto;
+  width: 230px;
+  font-size: 4em;
+}
+.testimonials .testimonials-controls .arrow-left { float: left; }
+.testimonials .testimonials-controls .arrow-right { float: right; }
+.testimonials .testimonials-controls .arrow-left,
+.testimonials .testimonials-controls .arrow-right {
+  -webkit-transition: all 0.2s ease-out;
+     -moz-transition: all 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out;
+       -o-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+}
+@media (min-width: 768px) {
+  .testimonials .testimonials-controls .arrow-left:hover { margin-left: -5px; }
+  .testimonials .testimonials-controls .arrow-right:hover { margin-right: -5px; }
+}
+.testimonials .carousel.fade { opacity:1; }
+.testimonials .carousel.fade .item {
+  opacity:0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+     -moz-transition: opacity 0.5s ease-in-out;
+      -ms-transition: opacity 0.5s ease-in-out;
+       -o-transition: opacity 0.5s ease-in-out;
+          transition: opacity 0.5s ease-in-out;
+}
+
+/* Section Content */
+.testimonials .carousel.fade .active.item { opacity:1; }
+.testimonials .carousel.fade .active.left,
+.testimonials .carousel.fade .active.right {
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.testimonials .carousel.fade .next,
+.testimonials .carousel.fade .prev {
+  left: 0;
+  z-index: 1;
+}
+.testimonials .carousel-inner { overflow: visible; }
+.testimonials .testimonials-photo {
+  position: absolute;
+  left: 0;
+  top: -170px;
+  right: 0;
+  bottom: auto;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #7a8691;
+}
+.testimonials .testimonials-photo img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+.testimonials .testimonials-info {
+  margin: 20px 0;
+  font-size: 120%;
+  text-align: center;
+}
+.testimonials .testimonials-info .author { display: block; }
+.testimonials .carousel.fade .carousel-caption { position: static; }
+.testimonials .carousel.fade .item blockquote p:before {
+  content: "\f10d";
+  float: left;
+  margin-right: 10px;
+  font-family: 'Fontawesome';
+}
+.testimonials .carousel.fade blockquote {
+  padding: 25px;
+  margin-top: 45px;
+  border: none;
+  font-size: 1.3em;
+  color: #bbb;
+  background-color: rgba(255,255,255,.1);
+}
+.testimonials .carousel.fade blockquote:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 70px;
+  right: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 25px solid rgba(255,255,255,.1);
+}
+@-moz-document url-prefix() { 
+  .testimonials .carousel.fade blockquote:before { top: 71px; }  /* fix Firefox */
+}
+_:-ms-input-placeholder,
+:root .testimonials .carousel.fade blockquote:before { top: 71px; }  /* fix IE10+ */
+.testimonials a { color: #d9534f; }

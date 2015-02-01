@@ -1,0 +1,251 @@
+/*------------------------------------------------------------------
+Project:  Mos7 - Responsive Bootstrap 3 App Landing Page Template
+Version:  1.3
+Last change:  29/12/2014
+Design by:  TemplatesPRO.com.br
+
+Component (line):
+1) SLIDESHOW (16)
+    - Slideshow Images (39)
+    - Slideshow Content (44)
+    - Slideshow Navigation (219)
+    - Slideshow Indicators (233)
+-------------------------------------------------------------------*/
+
+/********************************************************************
+ 1) SLIDESHOW
+ ***********/
+
+.slideshow {
+  overflow: hidden;
+  background-color: #000;
+}
+.slideshow .carousel { margin: 0 -15px; }
+.slideshow .item {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.slideshow .carousel-inner>.active.left {
+  opacity: .6;
+  -webkit-transition: all 0.6s ease-in-out;
+     -moz-transition: all 0.6s ease-in-out;
+      -ms-transition: all 0.6s ease-in-out;
+       -o-transition: all 0.6s ease-in-out;
+          transition: all 0.6s ease-in-out;
+}
+
+/* Slideshow Images */
+.slideshow .item-1 { background-image: url("../images/slideshow/slide_1.jpg"); }
+.slideshow .item-2 { background-image: url("../images/slideshow/slide_2.jpg"); }
+.slideshow .item-3 { background-image: url("../images/slideshow/slide_3.jpg"); }
+
+/* Slideshow Content */
+.slideshow .carousel-caption {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  right: 0;
+  bottom: auto;
+  padding: 0;
+  margin: auto;
+  width: 70%;
+  -webkit-transform: translateY(-45%);
+     -moz-transform: translateY(-45%);
+      -ms-transform: translateY(-45%);
+       -o-transform: translateY(-45%);
+          transform: translateY(-45%);
+}
+.slideshow .item-2 .c3,
+.slideshow .item-3 .c4 {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  bottom: auto;
+  padding: 0;
+  margin: auto;
+  -webkit-transform: translateY(-45%);
+     -moz-transform: translateY(-45%);
+      -ms-transform: translateY(-45%);
+       -o-transform: translateY(-45%);
+          transform: translateY(-45%);
+}
+.slideshow .item-3 .c5 { padding: 0; }
+@media (min-width: 768px) {
+  .slideshow .item-2 .c3,
+  .slideshow .item-3 .c4 {
+    top: 50%;
+    padding: 0 0 0 30px;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+  }
+  .slideshow .item-3 .c5 { padding-top: 3%; }
+  .slideshow .item-3 .c4 {
+    position: static;
+    top: auto;
+    right: auto;
+  -webkit-transform: translateY(0);
+     -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+       -o-transform: translateY(0);
+          transform: translateY(0);
+  }
+  .slideshow .embed-responsive.embed-responsive-4by3 { padding-bottom: 50%; }
+}
+@media (min-width: 992px) {
+  .slideshow .item-3 .c4 { max-height: none; }
+  .slideshow .item-3 .c5 { padding-top: 0; }
+  .slideshow .item-3 .c4 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 0 0 0 30px;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+  }
+  .slideshow .embed-responsive.embed-responsive-4by3 { padding-bottom: 75%; }
+}
+@media (min-width: 1200px) {
+  .slideshow .item-2 .c3 { padding: 0 15px; }
+}
+.slideshow .title {
+  margin: 0 0 13%;
+  font-size: 1.6em;
+}
+.slideshow .subtitle {
+  margin: 10% 0 0;
+  display: block;
+  font-size: 2em;
+  font-weight: lighter;
+}
+.slideshow .subtitle span { color: #d9534f; }
+.slideshow .btn {
+  margin: 0 20px;
+  border: 2px solid #d9534f;
+  width: 70%;
+  font-size: 1.1em;
+  background-color: rgba(217, 83, 79, 0.15);
+}
+.slideshow .btn + .btn { margin: 5% 20px 0; }
+.slideshow .btn:hover {
+  border: 2px solid #d9534f;
+  background-color: #d9534f;
+}
+.slideshow .btn .fa { margin-right: 10px; }
+@media (min-width: 480px) {
+  .slideshow .title { font-size: 1.9em; }
+  .slideshow .subtitle { font-size: 2em; }
+  .slideshow .btn { font-size: 1.2em; }
+}
+@media (min-width: 768px) {
+  .slideshow .title { margin: 0 0 10%; }
+  .slideshow .item-1 .title { font-size: 2.6em; }
+  .slideshow .item-2 .title {
+    margin: 0 0 14%;
+    font-size: 2em;
+  }
+  .slideshow .item-3 .title {
+     margin: 0 0 4%;
+    font-size: 2em;
+  }
+  .slideshow .subtitle { margin: 7% 0 0; }
+  .slideshow .item-2 .subtitle { margin: 10% 0 0; }
+  .slideshow .item-3 .subtitle { margin: 2% 0 0; }
+  .slideshow .btn {
+    padding: 2.25% 5%;
+    width: auto;
+    font-size: 1.3em
+  }
+  .slideshow .btn + .btn { margin: 0 20px; }
+  .slideshow .item-2 .btn {
+    padding: 4% 5%;
+    margin: 0 5px 0 0;
+    font-size: 1.1em;
+  }
+  .slideshow .item-3 .btn {
+    padding: 2% 5%;
+    font-size: 1.2em
+  }
+  .slideshow .item-2 .btn + .btn { margin: 0 0 0 5px; }
+}
+@media (min-width: 992px) {
+  .slideshow .title {
+     margin: 0 0 7%;
+    font-size: 2em;
+  }
+  .slideshow .item-2 .title { margin: 0 0 10%; }
+  .slideshow .item-3 .title { margin: 0 0 13%; }
+  .slideshow .subtitle {
+     margin: 5% 0 0;
+    font-size: 2.4em;
+  }
+  .slideshow .item-2 .subtitle { margin: 7% 0 0; }
+  .slideshow .item-3 .subtitle { margin: 9% 0 0; }
+  .slideshow .item-2 .btn {
+    padding: 3.5% 5%;
+    margin: 0 10px 0 0;
+    font-size: 1.2em;
+  }
+  .slideshow .item-2 .btn + .btn { margin: 0 0 0 10px; }
+  .slideshow .item-3 .btn {
+    padding: 4%;
+    margin: 0 5px 0 0;
+    font-size: 1.2em;
+  }
+  .slideshow .item-3 .btn + .btn { margin: 0 0 0 5px; }
+}
+@media (min-width: 1200px) {
+  .slideshow .title { font-size: 2.6em; }
+  .slideshow .item-2 .title,
+  .slideshow .item-3 .title { font-size: 2.4em; }
+  .slideshow .subtitle { font-size: 2.6em; }
+  .slideshow .item-2 .subtitle,
+  .slideshow .item-3 .subtitle { font-size: 2.4em; }
+  .slideshow .btn {
+    padding: 1.5% 3.5%;
+    font-size: 1.5em
+  }
+  .slideshow .item-2 .btn { padding: 2.5% 5%; }
+  .slideshow .item-3 .btn { padding: 3.25% 5%; }
+}
+
+/* Slideshow Navigation */
+.slideshow .carousel-control .fa-angle-left,
+.slideshow .carousel-control .fa-angle-right {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20px;
+  height: 50px;
+  font-size: 2.5em;
+}
+
+/* Slideshow Indicators */
+.slideshow .carousel-indicators li,
+.slideshow .carousel-indicators .active {
+  margin: 0 7px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+.slideshow .carousel-indicators li:hover { border: 1px solid #d9534f; }
+.slideshow .carousel-indicators .active {
+  border: 1px solid #d9534f;
+  background-color: #d9534f;
+}
