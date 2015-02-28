@@ -44,7 +44,9 @@ $(document).ready(function () {
       mapTypeControlOptions: {
         mapTypeIds: [google.maps.MapTypeId.ROADMAP, my_maptype_id]
       },
-      mapTypeId: my_maptype_id
+      mapTypeId: my_maptype_id,
+      disableDefaultUI: true,
+      draggable: false
     };
 
     var marker = new google.maps.Marker({
