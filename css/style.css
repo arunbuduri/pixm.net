@@ -1,7 +1,7 @@
 .slideshow .item-2{
-	background: url("https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/fractal-structure.jpeg") no-repeat scroll 50% 0px transparent;
+	background: url("https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/fractal-structure-dark.jpg") no-repeat scroll 50% 0px transparent;
 }
 
-.calltoaction{
-	background: url(https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/under-bridge.jpeg) no-repeat;
+input, textarea{
+	background: rgba(0, 0, 0, 0.24) !important;
 }

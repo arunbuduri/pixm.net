@@ -1287,12 +1287,19 @@ _:-ms-input-placeholder,
 .calltoaction {
   position: relative;
   z-index: 0;
-  padding: 50px 0 75px;
+  padding: 111px 0 75px;
   text-align: center;
-  background-image: url("../images/bg_2.jpg");
+  background-image: url("https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/under-bridge-dark.jpg");
   background-position: center top;
   background-attachment: fixed;
   background-size: cover;
+}
+.calltoaction input{
+  border: 1px solid darkred;
+  padding: 13px 33px;
+  color: red;
+  margin: 33px;
+  width: 33%;
 }
 .calltoaction:before {
   content: "";
@@ -1380,7 +1387,7 @@ _:-ms-input-placeholder,
   font-size: 1em;
   border-radius: 10px;
   color: #2b3e50;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+  box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.46);
   background-color: #fff;
   opacity: 0.9;
 }
@@ -1452,7 +1459,9 @@ _:-ms-input-placeholder,
   .contact .r3 .c3,
   .contact .r4 .c2 { margin-top: 0; }
 }
-.contact .section-header { margin-bottom: 120px; }
+.contact .section-header { 
+  margin-bottom: 120px;
+}
 .contact .map-title {
   position: absolute;
   left: 0;
@@ -1468,7 +1477,7 @@ _:-ms-input-placeholder,
   line-height: 1.2em;
   text-align: center;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 1px #7a8691;
+  box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.46);
   background-color: #2b3e50;
 }
 .contact .map-title:hover {
@@ -1481,7 +1490,8 @@ _:-ms-input-placeholder,
 }
 .contact .map-title:hover a { color: #fff; }
 .contact .map-title .glyphicon {
-  font-size: 1.4em;
+  top: 19px;
+  font-size: 1.5em;
 }
 .contact #contact-accordion-1 { margin-bottom: 20px; }
 .contact .alert { margin: 40px 0 -20px; }
