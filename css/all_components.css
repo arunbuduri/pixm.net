@@ -1287,12 +1287,19 @@ _:-ms-input-placeholder,
 .calltoaction {
   position: relative;
   z-index: 0;
-  padding: 50px 0 75px;
+  padding: 111px 0 75px;
   text-align: center;
   background-image: url("https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/under-bridge-dark.jpg");
   background-position: center top;
   background-attachment: fixed;
   background-size: cover;
+}
+.calltoaction input{
+  border: 1px solid darkred;
+  padding: 13px 33px;
+  color: red;
+  margin: 33px;
+  width: 33%;
 }
 .calltoaction:before {
   content: "";
