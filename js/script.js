@@ -1,9 +1,7 @@
+/* Kimono is too slow
 $.ajax({
   url:"https://www.kimonolabs.com/api/deu8kwmq?apikey=KNqzpTaPqOfXhtTbkZVcvq8s9rn9xjqq",
   crossDomain: true,
-  data: {
-    format: 'json'
-  },
   dataType: "jsonp",
   success: function (response) {
     //Do something with the response
@@ -13,10 +11,11 @@ $.ajax({
     $('#info')
       .append($valid_phises)
       .append($total_submissions);
-  },
+  } /*,
   error: function (xhr, status) {
     //handle errors
     console.log(xhr, status);
-  },
-  type: 'GET'
-});
+  } */
+//});
+
+

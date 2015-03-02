@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 
 <head>
   <meta charset="utf-8">
@@ -14,14 +14,6 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome 4.2.0 -->
   <link href="css/font-awesome.min.css" rel="stylesheet">
-
-  <!-- VENDORS -->
-  <!-- Circliful Circle Statistics -->
-  <link href="css/vendor/jquery.circliful.min.css" rel="stylesheet">
-  <!-- Slick Carousel -->
-  <link href="css/vendor/slick.min.css" rel="stylesheet">
-  <!-- Blueimp Gallery Lightbox -->
-  <link href="css/vendor/blueimp-gallery.min.css" rel="stylesheet">
 
   <!-- Custom -->
   <link href="css/main.css" rel="stylesheet">
@@ -111,9 +103,12 @@
               <li>
                 <a href="#anch-pricing">Pricing</a>
               </li>
+              -->
               <li>
-                <a href="#anch-download">Download</a>
-              </li> -->
+                <a href="#anch-stats">Treat Landscape</a>
+              </li><li>
+                <a href="#anch-download">Sign Up</a>
+              </li>
               <li>
                 <a href="#anch-contact">Contact</a>
               </li>
@@ -125,6 +120,52 @@
     <!-- MAIN -->
     <div class="main">
       <!-- other sections extracted from here -->
+      <!-- STATS -->
+      <section id="anch-stats" class="stats hidden-xs">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header">
+            <h2 class="section-title">The Treat Landscape</h2>
+            <h3 class="section-subtitle">Over $1 billion was hacked in 2013-2014. </h3>
+            <sup>
+              <a class="mashable" href="http://mashable.com/2015/02/16/hackers-steal-1-billion-from-banks/">
+                "Hacker gang reportedly steals $1 billion from banks" ~Mashable
+              </a>
+            </sup>
+            <div class="row counter-row">
+              <div class="col-md-3 col-xs-6">
+                <h3>Live Phising Attacks</h3>
+                <sup>
+                  <a class="phishtank" href="https://www.phishtank.com/stats.php">
+                    verified by PhishTank&reg;
+                  </a>
+                </sup>
+                <br/>
+                <span class="counter">23,350</span>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <h3>Total Phishing Attacks</h3>
+                <sup>
+                  <a class="phishtank" href="https://www.phishtank.com/stats.php">
+                    verified by PhishTank&reg;
+                  </a>
+                </sup>
+                <br/>
+                <span class="counter">2,990,913</span>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                  <h3>Offices</h3>
+                  <span class="counter">15</span>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                  <h3>Awards</h3>
+                  <span class="counter">20</span>
+              </div>
+            </div> <!-- .row -->
+          </div><!-- End Section Header -->
+        </div>
+      </section><!-- END STATS -->
+      <!-- other sections extracted from here -->
       <!-- CALL TO ACTION - Download / Newsletter -->
       <section class="calltoaction" id="anch-download">
         <div class="container">
@@ -133,39 +174,8 @@
             <h2 class="section-title">Get updates</h2>
             <br/>
             <input type="text" placeholder="you.email@address.com" />
-            <!-- <h3 class="section-subtitle"></h3> -->
+            <h3 class="section-subtitle"> Stay current with our security offerings. </h3>
           </div><!-- End Section Header -->
-          <!-- Section Content -->
-          <div class="r1 row">
-            <div class="c1 col-md-12">
-              <!-- Download Buttons -->
-              <div class="download-buttons animateblock ltr-2 speed-1">
-                <a class="btn btn-lg btn-danger" href="#" target="_blank"><i class="fa fa-apple"></i>App Store</a>
-                <a class="btn btn-lg btn-danger" href="#" target="_blank"><i class="fa fa-android"></i>Google Play</a>
-              </div>
-              <!-- Newsletter -->
-              <div class="newsletter-wrapper animateblock rtl-2 speed-1">
-                <h3>Do you want to know more?</h3>
-                <form class="form-inline" role="form">
-                  <div class="form-group input-group">
-                    <label class="sr-only" for="newsletteremail">Email address</label>
-                    <input class="form-control" id="newsletteremail" type="email" placeholder="Enter email">
-                    <div class="input-group-btn">
-                      <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown" type="button">Sign Up <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                        <li><a href="#">Subscribe</a>
-                        </li>
-                        <li><a href="#">Unsubscribe</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <small class="help-block">Don't worry. We do not spam :)</small>
-                </form>
-              </div><!-- End Newsletter -->
-            </div>
-          </div><!-- End Section Content -->
         </div>
       </section><!-- END CALL TO ACTION -->
       <!-- CONTACT -->
@@ -197,8 +207,6 @@
                         <div id="map-canvas"></div>
                         <!-- Address over the map -->
                         <address class="alert vcard">
-                              <button class="close" data-dismiss="alert" type="button"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                              </button>
                               <div class="org">
                                 <strong>DeepSecurity, Inc</strong>
                               </div>
@@ -210,12 +218,10 @@
                               </div>
                               <div class="tel">
                                 <span class="tel-1">+1 212-565-0000</span>
-                                <span class="tel-2">+1 212-565-0001</span>
                               </div>
                               <div class="email">
                                 <!-- Anti spam protection. Keep the codes: "&#x3a;" (= ":") / "&#x40;" (= "@") / "&#x2e;" (= ".") -->
                                 <span class="email-contact"><a href="mailto&#x3a;contact&#x40;yourcompany&#x2e;com" data-user="contact" data-domain="yourcompany.com"></a></span>
-                                <span class="email-support"><a href="mailto&#x3a;support&#x40;yourcompany&#x2e;com" data-user="support" data-domain="yourcompany.com"></a></span>
                               </div>
                             </address><!-- End Address over the map -->
                       </div><!-- End Map -->
@@ -226,59 +232,6 @@
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="r1 row">
-            <div class="c1 col-md-10 col-md-offset-1">
-              <div class="alerts hidden-xs"></div>
-              <!-- Contact form -->
-              <div class="form-horizontal contact-form" role="form">
-                <fieldset>
-                  <legend>Contact</legend>
-                  <div class="r1 row form-group">
-                    <div class="c1 col-sm-6 col-md-6">
-                      <input class="form-control" id="fname" name="fname" type="text" placeholder="First Name *" required>
-                    </div>
-                    <div class="c2 col-sm-6 col-md-6">
-                      <input class="form-control" id="lname" name="lname" type="text" placeholder="Last Name *" required>
-                    </div>
-                  </div>
-                  <div class="r2 row form-group">
-                    <div class="c1 col-sm-6 col-md-6">
-                      <input class="form-control" id="email" name="email" type="email" placeholder="Email *" required>
-                    </div>
-                    <div class="c2 col-sm-6 col-md-6">
-                      <input class="form-control" id="phone" name="phone" type="tel" placeholder="Phone">
-                    </div>
-                  </div>
-                  <div class="r3 row form-group">
-                    <div class="c1 col-sm-6 col-md-6">
-                      <input class="form-control" id="company" name="company" type="text" placeholder="Company">
-                    </div>
-                    <div class="c2 col-sm-6 col-md-6">
-                      <input class="form-control" id="website" name="website" type="url" placeholder="Website">
-                    </div>
-                  </div>
-                  <div class="r4 row form-group">
-                    <div class="c1 col-md-12">
-                      <input class="form-control" id="subject" name="subject" type="text" placeholder="Subject *" required>
-                    </div>
-                  </div>
-                  <div class="r5 row form-group">
-                    <div class="c1 col-md-12">
-                      <textarea class="form-control" id="message" name="message" rows="10" placeholder="Message *" required></textarea>
-                    </div>
-                  </div>
-                  <div class="r6 row form-group">
-                    <div class="c1 col-md-12">
-                      <button class="btn btn-lg btn-danger submit-form" type="submit">Send Message</button>
-                    </div>
-                  </div>
-                </fieldset>
-              </div><!-- End Contact form -->
-              <div class="alerts alerts-xs hidden-sm hidden-md hidden-lg"></div>
-            </div>
-          </div>
-        </div><!-- End Section Content -->
       </section><!-- END CONTACT -->
     </div><!-- END MAIN -->
     <!-- FOOTER -->
@@ -316,28 +269,28 @@
   </div><!-- END LAYOUT -->
 
   <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+  <script src="js/jquery.min.js"></script>
   <!-- Bootstrap 3.3.1 -->
   <script src="js/bootstrap.min.js"></script>
   <!-- Retina Graphics -->
   <script src="js/vendor/retina.min.js"></script>
   <!-- Nicescroll Scrollbars -->
   <script src="js/vendor/jquery.nicescroll.min.js"></script>
-  <!-- Circliful Circle Statistics -->
-  <script src="js/vendor/circles.min.js"></script>
-  <!-- Slick Carousel -->
-  <script src="js/vendor/slick.min.js"></script>
-  <!-- BlueImp Gallery Lightbox -->
-  <script src="js/vendor/jquery.blueimp-gallery.min.js"></script>
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   <script src="js/google_map.js"></script>
   <!-- Placeholder Polyfill IE9 -->
   <script src="js/vendor/simple.min.js"></script>
   <!-- Default General Settings -->
-  <script src="js/main.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+  <script src="js/main.js" defer></script> 
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script><!-- counterup plugin for increasing page stats -->
 
+  <script type="text/javascript">
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  </script>
+</body>
 </html>

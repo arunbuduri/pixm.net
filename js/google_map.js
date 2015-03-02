@@ -35,6 +35,20 @@ $(document).ready(function () {
         stylers: [
           { color: '#d9534f' }
         ]
+      },
+      {
+        featureType: "poi.business",
+        elementType: "labels",
+        stylers: [
+          { visibility: "off" }
+        ]
+      },
+      {
+        featureType: "road",
+        elementType: "labels",
+        stylers: [
+          { visibility: "off" }
+        ]
       }
     ];
 
@@ -46,7 +60,11 @@ $(document).ready(function () {
       },
       mapTypeId: my_maptype_id,
       disableDefaultUI: true,
-      draggable: false
+      draggable: false,
+      scrollwheel: false,
+      navigationControl: false,
+      mapTypeControl: false,
+      scaleControl: false
     };
 
     var marker = new google.maps.Marker({

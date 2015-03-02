@@ -5,3 +5,16 @@
 input, textarea{
 	background: rgba(0, 0, 0, 0.24) !important;
 }
+sub a{
+	text-decoration: none;
+}
+.mashable{
+	margin: 39px auto auto;
+	display: block;
+}
+.counter-row{
+	margin: 77px auto -70px;
+}
+	.counter{
+		font-size: 44px;
+	}
