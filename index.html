@@ -50,19 +50,59 @@
           <div class="r1 row">
             <div class="c1 col-md-12">
               <div class="carousel slide" id="slideshow-carousel-1" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li class="active" data-target="#slideshow-carousel-1" data-slide-to="0"></li>
+                  <li data-target="#slideshow-carousel-1" data-slide-to="1"></li>
+                  <li data-target="#slideshow-carousel-1" data-slide-to="2"></li>
+                </ol><!-- End Indicators -->
                 <!-- Wrapper for Slides -->
                 <div class="carousel-inner">
-                  <!-- Slide 2 -->
-                  <div class="item item-2 active parallax" data-speed="2">
+                  <!-- Slide 1 -->
+                  <div class="item item-1 active parallax" data-speed="2">
                     <div class="carousel-caption">
-                      <div style="width:100%;margin:auto;" class="c1 col-xs-12 col-sm-7 col-md-7">
-                        <h2 class="title">Bringing Deep Learning to Web Security.<br><small class="subtitle">DEEP<span>SECURITY</span></small></h2>
+                      <h2 class="title">Bringing Deep Learning to Web Security.<br><small class="subtitle">DEEP<span>SECURITY<span></small></h2>
+                      <a class="btn btn-lg btn-danger" href="#"><i class="fa fa-apple"></i>App Store</a>
+                      <a class="btn btn-lg btn-danger" href="#"><i class="fa fa-android"></i>Google Play</a>
+                    </div>
+                  </div><!-- End Slide 1 -->
+                  <!-- Slide 2 -->
+                  <div class="item item-2 parallax" data-speed="2">
+                    <div class="carousel-caption">
+                      <div class="c2 hidden-xs col-sm-5 col-md-5">
+                        <img class="img-responsive center-block" src="images/slideshow/phone.png" alt="Image">
+                      </div>
+                      <div class="c3 col-xs-12 col-sm-7 col-md-7">
+                        <h2 class="title">Bringing Deep Learning to Web Security.<br><small class="subtitle">DEEP<span>SECURITY<span></small></h2>
                         <a class="btn btn-lg btn-danger" href="#" target="_blank"><i class="fa fa-apple"></i>App Store</a>
                         <a class="btn btn-lg btn-danger" href="#" target="_blank"><i class="fa fa-android"></i>Google Play</a>
                       </div>
                     </div>
-                  </div><!-- End Slide 2 .item .item-2 -->
-                </div><!-- End Wrapper for Slides .carousel-inner -->
+                  </div><!-- End Slide 2 -->
+                  <!-- Slide 3 -->
+                  <div class="item item-3 parallax" data-speed="2">
+                    <div class="carousel-caption">
+                      <div class="c4 hidden-xs col-sm-12 col-md-7 col-md-push-5 text-center">
+                        <!-- 4:3 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-4by3">
+                          <iframe class="embed-responsive-item" src="//www.youtube-nocookie.com/embed/impZ7krcPzI?controls=0&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;iv_load_policy=3" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="c5 col-xs-12 col-sm-12 col-md-5">
+                        <h2 class="title">Bringing Deep Learning to Web Security.<br><small class="subtitle">DEEP<span>SEC<span></small></h2>
+                        <a class="btn btn-lg btn-danger" href="#" target="_blank"><i class="fa fa-apple"></i>App Store</a>
+                        <a class="btn btn-lg btn-danger" href="#" target="_blank"><i class="fa fa-android"></i>Google Play</a>
+                      </div>
+                    </div>
+                  </div><!-- End Slide 3 -->
+                </div><!-- End Wrapper for Slides -->
+                <!-- Controls -->
+                <a class="left carousel-control" data-slide="prev" href="#slideshow-carousel-1">
+                  <span class="fa fa-angle-left"></span>
+                </a>
+                <a class="right carousel-control" data-slide="next" href="#slideshow-carousel-1">
+                  <span class="fa fa-angle-right"></span>
+                </a><!-- End Controls -->
               </div>
             </div>
           </div>
@@ -111,6 +151,9 @@
               </li>
               <li>
                 <a href="#anch-contact">Contact</a>
+              </li>
+              <li>
+                <a href="#anch-contact">Blog</a>
               </li>
             </ul>
           </div><!-- End Menu -->
@@ -171,7 +214,7 @@
         <div class="container">
           <!-- Section Header -->
           <div class="section-header">
-            <h2 class="section-title">Get updates</h2>
+            <h2 class="section-title">Get Updates</h2>
             <br/>
             <input type="text" placeholder="you.email@address.com" />
             <h3 class="section-subtitle"> Stay current with our security offerings. </h3>
@@ -183,7 +226,7 @@
         <div class="container-fluid">
           <!-- Section Header -->
           <div class="section-header">
-            <h2 class="section-title">Communicate</h2>
+            <h2 class="section-title">Contact DeepSecurity</h2>
             <h3 class="section-subtitle">
               Get in touch and learn more about what we're up to. 
             </h3>
@@ -287,10 +330,23 @@
   <script src="js/jquery.counterup.min.js"></script><!-- counterup plugin for increasing page stats -->
 
   <script type="text/javascript">
-    $('.counter').counterUp({
-      delay: 10,
-      time: 1000
+    // init stats counter after scrolling 404 pixels down,
+    // then turn off scroll event.
+    // via http://stackoverflow.com/questions/16782753/jquery-scroll-function-keeps-triggering-only-once-please
+    var countStats = function(){
+      $('.counter').counterUp({
+        delay: 77,
+        time: 9999
+      });
+    }
+      
+    $(document).on('scroll', function() {
+      if( $(this).scrollTop() >= 404 ) {
+        $(document).off('scroll');
+        countStats();
+      }
     });
   </script>
+
 </body>
 </html>
