@@ -1,0 +1,54 @@
+.shadow{
+	background: rgba(0, 0, 0, 0.77) none repeat scroll 0% 0%;
+	box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.88);
+}
+
+.slideshow .item-1{
+	background: url("https://0bb2d4b55211786ff4c9e06df4439fa04ea51ca5.googledrive.com/host/0B9LVk4xbDIJTVUctZHczSWFWMGs") 0 -631px !important;
+}
+	.slideshow .item-1 .carousel-caption{
+		background: rgba(0, 0, 0, 0.65) none repeat scroll 0% 0%;
+		padding: 199px 0px;
+		box-shadow: 3px 3px 9px #000;
+	}
+	.slideshow .item-2{
+		background: url("https://9330646ff48e973837fbf68bd89fc5b2b3e606a7.googledrive.com/host/0B9LVk4xbDIJTZGVWb2lneDJ3Y00") no-repeat scroll 50% 0px transparent;
+	}
+	.slideshow .item-3{
+		background: url("https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/fractal-structure-dark.jpg") no-repeat scroll 50% 0px transparent;
+	}
+
+.carousel-inner{
+	background: #FECFFF;
+}
+
+#anch-how{
+	background: url("https://94d4ca5e4a76422c23e98aa0df059a12a8ebbc56.googledrive.com/host/0B9LVk4xbDIJTMG9JbnlyNHBfU28") 0 -888px;
+}
+	#anch-how p, #anch-mission p{
+		font-size: 23px;
+	}
+#anch-mission{
+	background: url("https://f9fd3452552d1cf7f1b52389e98e38ecd9851b0b.googledrive.com/host/0B9LVk4xbDIJTSWF5XzJYZW1vM2s") no-repeat center;
+}
+	#anch-mission .section-header{
+		padding: 33px;
+		width: 777px;
+		margin: auto;
+	}
+input, textarea{
+	background: rgba(0, 0, 0, 0.24) !important;
+}
+sub a{
+	text-decoration: none;
+}
+.mashable{
+	margin: 39px auto auto;
+	display: block;
+}
+.counter-row{
+	margin: 77px auto -70px;
+}
+	.counter{
+		font-size: 44px;
+	}

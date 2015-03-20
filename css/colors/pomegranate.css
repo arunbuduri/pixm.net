@@ -1,0 +1,178 @@
+/*------------------------------------------------------------------
+Project:  Mos7 - Responsive Bootstrap 3 App Landing Page Template
+Version:  1.3
+Last change:  29/12/2014
+Design by:  TemplatesPRO.com.br
+
+Structure (line):
+1) LINKS AND BUTTONS (34)
+2) NAVBAR (50)
+3) HEADERS - Sections (63)
+    - Button Go Top (72)
+4) SLIDESHOW (77)
+    - Slideshow Content - Buttons (80)
+    - Slideshow Indicators (98)
+5) FEATURES (107)
+    - Section Content - Icons (110)
+    - Features Titles (114)
+6) OVERVIEW (119)
+    - Overview Titles (122)
+    - Tab 2 (125)
+    - Tab 3 (129)
+7) STATS (134)
+8) GALLERY (142)
+    - Gallery Navigation (145)
+9) TESTIMONIALS (151)
+    - Testimonials Navigation and Links (154)
+10) PRICING (159)
+11) CONTACT (170)
+    - Icon (173)
+    - Links (177)
+-------------------------------------------------------------------*/
+
+/********************************************************************
+ 1) LINKS AND BUTTONS
+ ********************/
+
+a { color: #c0392b; }
+.btn {
+  color: #fff;
+  background-color: #c0392b;
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.open>.dropdown-toggle.btn { background-color: #ac3327; }
+
+
+/********************************************************************
+ 2) NAVBAR
+ *********/
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-nav>li>a:hover,
+.navbar-nav>.active>a { color: #c0392b; }
+
+
+/********************************************************************
+ 3) HEADERS - Sections
+ *********************/
+
+.section-title {
+  border-bottom: 1px solid #c0392b;
+  color: #c0392b;
+}
+.section-subtitle::after { background-color: #c0392b; }
+
+/* Button Go Top */
+.go-top:hover { color: #c0392b; }
+
+
+/********************************************************************
+ 4) SLIDESHOW
+ ************/
+
+/* Slideshow Content - Buttons */
+.slideshow .btn {
+  border: 2px solid #c0392b;
+  background-color: rgba(192, 57, 43, 0.15);
+}
+.slideshow .btn:hover {
+  border: 2px solid #c0392b;
+  background-color: #c0392b;
+}
+.slideshow .btn-download {
+  border: 2px solid #c0392b;
+  background-color: #c0392b;
+}
+.slideshow .btn-download:hover {
+  border: 2px solid #ac3327;
+  background-color: #ac3327;
+}
+
+/* Slideshow Indicators */
+.slideshow .carousel-indicators li:hover { border: 1px solid #c0392b; }
+.slideshow .carousel-indicators .active {
+  border: 1px solid #c0392b;
+  background-color: #c0392b;
+}
+
+
+/********************************************************************
+ 5) FEATURES
+ ********************/
+
+/* Section Content - Icons */
+.features .features-icon { color: #c0392b; }
+.features .features-wrapper:hover .features-icon { background-color: #c0392b; }
+
+/* Features Titles */
+.features .features-content .title { color: #c0392b; }
+
+
+/********************************************************************
+ 6) OVERVIEW
+ ***********/
+
+/* Overview Titles */
+.overview .title { color: #c0392b; }
+
+/* Tab 2 */
+.overview .overview-icon { color: #c0392b; }
+.overview .overview-wrapper:hover .overview-icon { background-color: #c0392b; }
+
+/* Tab 3 */
+.overview .progress-bar { background-color: #c0392b; }
+
+
+/********************************************************************
+ 7) STATS
+ ********/
+
+path + path { stroke: #c0392b; }
+.stats .description .fa { color: #c0392b; }
+
+
+/********************************************************************
+ 8) GALLERY
+ **********/
+
+/* Gallery Navigation */
+.gallery .slick-dots li button:before,
+.gallery .slick-dots .slick-active button:before { color: #c0392b; }
+
+
+/********************************************************************
+ 9) TESTIMONIALS
+ ***************/
+
+/* Testimonials Navigation and Links */
+.testimonials a { color: #c0392b; }
+
+
+/********************************************************************
+ 10) PRICING
+ ***********/
+
+.plan-price { background-color: #c0392b; }
+.panel:hover .plan-price { background-color: #c0392b; }
+.panel-popular .plan-price:before { box-shadow: 0 0 0 2px #c0392b; }
+.pricing .panel:hover .panel-heading { color: #c0392b; }
+.pricing .badge-popular { background: url(../../images/pricing/badge_popular_pomegranate.png) no-repeat center center; }
+
+
+/********************************************************************
+ 11) CONTACT
+ ***********/
+
+/* Icon */
+.contact .map-title a { color: #c0392b; }
+.contact .map-title:hover { background-color: #c0392b; }
+
+/* Links */
+.contact .vcard a { color: #c0392b; }
