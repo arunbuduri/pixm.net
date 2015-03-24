@@ -6,20 +6,28 @@
 .slideshow .item-1{
 	background: url("https://0bb2d4b55211786ff4c9e06df4439fa04ea51ca5.googledrive.com/host/0B9LVk4xbDIJTVUctZHczSWFWMGs") 0 -631px !important;
 }
-	.slideshow .item-1 .carousel-caption{
+	.slideshow .item-1 .carousel-caption, .slideshow .item-2 .carousel-slogan{
 		background: rgba(0, 0, 0, 0.65) none repeat scroll 0% 0%;
 		padding: 199px 0px;
 		box-shadow: 3px 3px 9px #000;
 	}
+	.slideshow .item-3 .carousel-caption{
+		background: rgba(0, 0, 0, 0.89) none repeat scroll 0% 0%;
+		padding: 199px 0px;
+		box-shadow: 3px 3px 9px #000;
+	}
+	.slideshow .item-2 .carousel-slogan{
+
+	}
 	.slideshow .item-2{
-		background: url("https://9330646ff48e973837fbf68bd89fc5b2b3e606a7.googledrive.com/host/0B9LVk4xbDIJTZGVWb2lneDJ3Y00") no-repeat scroll 50% 0px transparent;
+		background: url("https://4fa4283e09b17b41ad98d690106701743701a266.googledrive.com/host/0B9LVk4xbDIJTZkR5cHhoNHhhNm5fUDE4QUNKZlNNMFQ2UzA4") no-repeat scroll 50% 0px transparent;
 	}
 	.slideshow .item-3{
-		background: url("https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/fractal-structure-dark.jpg") no-repeat scroll 50% 0px transparent;
+		background: url("https://31dc80f7bae58e3a715c0cee45dadaa2d8916d4d.googledrive.com/host/0B9LVk4xbDIJTNWFYN21JZjh1Rm5PRUNtSGh5REQ4dXNrV2Zr") center;
 	}
 
 .carousel-inner{
-	background: #FECFFF;
+	background: #6B6B6B none repeat scroll 0% 0%;
 }
 
 #anch-how{
