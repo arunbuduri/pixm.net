@@ -3,6 +3,10 @@
 	box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.88);
 }
 
+.hide{
+	display:none;
+}
+
 .slideshow .item-1{
 	background: url("https://0bb2d4b55211786ff4c9e06df4439fa04ea51ca5.googledrive.com/host/0B9LVk4xbDIJTVUctZHczSWFWMGs") 0 -631px !important;
 }
