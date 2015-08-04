@@ -7,6 +7,10 @@
 	display:none;
 }
 
+body{
+	font-family: 'Century Gothic W01';
+}
+
 .media-coverage#anch-media{
 	padding-top: 77px;
 }
@@ -17,7 +21,7 @@
 		position: absolute;
 		right: 0;
 		z-index: 1;
-  	height: 177px;
+  		height: 177px;
 		bottom: 46px;
 		height: 131px;
 		border-top-left-radius: 90px;
@@ -25,12 +29,12 @@
 	}
 		.media-coverage-top span{
 			font-weight: 900;
-		  display: block;
-		  float: right;
+			display: block;
+			float: right;
 			width: 116px;
 			padding: 0 4px;
-		  color: #fff;
-  		margin: 7px 33px -33px 0;
+			color: #fff;
+			margin: 7px 33px -33px 0;
 			background-color: rgba(52, 51, 51, 0.13);
 		}
 		.media-coverage-top ul li img{
@@ -98,8 +102,8 @@
 	}
 #anch-mission{
 	background: url("https://f9fd3452552d1cf7f1b52389e98e38ecd9851b0b.googledrive.com/host/0B9LVk4xbDIJTSWF5XzJYZW1vM2s") 33px 0px repeat-x;
-  height: 733px;
-  padding: 237px 0 75px;
+	height: 733px;
+	padding: 237px 0 75px;
 }
 	#anch-mission .section-header{
 		padding: 33px;
