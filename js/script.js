@@ -2,7 +2,6 @@
 /*jshint unused:false */
 
 $(document).ready(function($) {
-  "use strict";
 
 /* Kimono is too slow
 $.ajax({
@@ -42,5 +41,8 @@ $.ajax({
         );
         document.querySelector('head').appendChild(msViewportStyle);
     }
+    
+    $('#mti_wfs_colophon, #scrollbarX').remove();
+    
 
 }(jQuery));
