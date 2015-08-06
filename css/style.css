@@ -11,6 +11,11 @@ body{
 	font-family: 'Century Gothic W01';
 }
 
+.nav-logo{
+	width: 88px;
+	margin: 5px auto 0px;
+}
+
 .media-coverage#anch-media{
 	padding-top: 77px;
 }
