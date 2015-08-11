@@ -1,0 +1,143 @@
+.shadow{
+	background: rgba(0, 0, 0, 0.77) none repeat scroll 0% 0%;
+	box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.88);
+}
+
+.hide{
+	display:none;
+}
+
+body{
+	font-family: 'Century Gothic W01';
+}
+
+.nav-logo{
+	width: 88px;
+	margin: 5px auto 0px;
+}
+
+.media-coverage#anch-media{
+	padding-top: 77px;
+}
+.media-coverage ul{
+	padding: 0;
+}
+	.media-coverage-top{
+		position: absolute;
+		right: 0;
+		z-index: 1;
+  		height: 177px;
+		bottom: 46px;
+		height: 131px;
+		border-top-left-radius: 90px;
+		background-color: rgba(64, 63, 73, 0.8);
+	}
+		.media-coverage-top span{
+			font-weight: 900;
+			display: block;
+			float: right;
+			width: 154px;
+			padding: 0 4px;
+			color: #fff;
+			margin: 7px 33px -33px 0;
+			background-color: rgba(52, 51, 51, 0.13);
+		}
+		.media-coverage-top ul li img{
+			width: 77px;
+			margin: 42px 0 0;
+		}
+	.media-coverage ul li, .media-coverage-top ul li{
+		margin: 33px;
+		list-style: none;
+		display: inline-block;
+	}
+	.media-coverage-top ul li{
+		margin: 0 13px;
+		height: 119px;
+	}
+	.media-coverage ul li img{
+		width: 131px;
+		margin: 33px;
+	}
+
+.slideshow .item-1{
+	background: url("https://e8cc66e782929b88c8bd8de2e85dbb1e67df10c9.googledrive.com/host/0B9LVk4xbDIJTVFp3Q3IzOWVFNFU") 0 -603px !important;
+}
+	.slideshow .item-1 .carousel-caption, .slideshow .item-2 .carousel-slogan{
+		background: rgba(0, 0, 0, 0.65) none repeat scroll 0% 0%;
+		padding: 199px 0px;
+		box-shadow: 3px 3px 9px #000;
+	}
+	.slideshow .item-3 .carousel-caption{
+		background: rgba(0, 0, 0, 0.89) none repeat scroll 0% 0%;
+		padding: 199px 0px;
+		box-shadow: 3px 3px 9px #000;
+	}
+	.slideshow .item-2 .carousel-slogan{
+		padding: 199px 0px 323px;
+	}
+	.slideshow .item-2{
+		background: url("https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/art-piece-1-big.jpg") no-repeat scroll 50% 0px transparent;
+	}
+	.slideshow .item-3{
+		background: url("https://31dc80f7bae58e3a715c0cee45dadaa2d8916d4d.googledrive.com/host/0B9LVk4xbDIJTNWFYN21JZjh1Rm5PRUNtSGh5REQ4dXNrV2Zr") center;
+	}
+	.item .carousel-caption{
+		width: 909px;
+	}
+		.item-1 .carousel-caption .subtitle{
+			margin: 0 !important;
+		}
+		.item-2 .carousel-caption .subtitle{
+			margin-top: 133px !important;
+		}
+		.item-3 .carousel-caption .subtitle{
+			margin-top: 77px !important;
+		}
+
+.carousel-inner{
+	background: #6B6B6B none repeat scroll 0% 0%;
+}
+
+#anch-how{
+	background: url("https://94d4ca5e4a76422c23e98aa0df059a12a8ebbc56.googledrive.com/host/0B9LVk4xbDIJTMG9JbnlyNHBfU28") 0 -888px;
+}
+	#anch-how p, #anch-mission p{
+		font-size: 23px;
+	}
+#anch-mission{
+	background: url("https://65109c71c1d4b0b49f8381d632a062273afa5501.googledrive.com/host/0B9LVk4xbDIJTTEtoNVpZcFlpVlE") 33px 0px repeat-x;
+	height: 733px;
+	padding: 237px 0 75px;
+}
+	#anch-mission .section-header{
+		padding: 33px;
+		width: 777px;
+		margin: auto;
+	}
+
+input, textarea{
+	background: rgba(0, 0, 0, 0.24) !important;
+}
+sub a{
+	text-decoration: none;
+}
+.mashable{
+	display: block;
+	font-size: 13px;
+	line-height: 16px;
+	margin: 39px auto auto;
+}
+.counter-row{
+	margin: 77px auto -70px;
+}
+	.counter{
+		font-size: 44px;
+	}
+
+.contact .alert {
+  padding: 20px 44px 0 48px;
+  background-color: #2F3C49;
+  color: #fff;
+  border: 1px solid #476A8B;
+}
