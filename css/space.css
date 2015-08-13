@@ -99,6 +99,26 @@ body{
 	background: #6B6B6B none repeat scroll 0% 0%;
 }
 
+.slideshow .btn{
+	box-shadow: 3px 3px 22px rgba(0, 0, 0, 0.63);
+	border: 2px solid #2575AB;
+    background-color: rgba(37, 117, 171, 0.27);
+}
+
+.slideshow .btn:hover{
+	border: 2px solid #2575AB;
+	background-color: #2575AB;
+}
+
+.contact .vcard{
+	left: 222px;
+    top: 33px;
+    right: inherit;
+}
+	.contact .vcard a{
+		color: #55BAFF;
+	}
+
 #anch-how{
 	background: url("https://94d4ca5e4a76422c23e98aa0df059a12a8ebbc56.googledrive.com/host/0B9LVk4xbDIJTMG9JbnlyNHBfU28") 0 -888px;
 }
@@ -134,6 +154,13 @@ sub a{
 	.counter{
 		font-size: 44px;
 	}
+
+.footer-logo{
+	background: #2b3e50 url(https://821e7ef77464ad52348a37f571bce1d74212e02a.googledrive.com/host/0B4vEEqs-tDY1Q3poaG5FOVRUQUU) center no-repeat;
+    padding: 71px 72px;
+    margin: -43px auto auto;
+    display: block;
+}
 
 .contact .alert {
   padding: 20px 44px 0 48px;

@@ -24,7 +24,7 @@ $(document).ready(function () {
     var featureOpts = [
       {
         stylers: [
-          { hue: '#d9534f' },
+          { hue: '#2575AB ' }, // #d9534f
           { visibility: 'on' },
           { gamma: 0.5 },
           { weight: 0.5 }
@@ -33,7 +33,7 @@ $(document).ready(function () {
       {
         featureType: 'water',
         stylers: [
-          { color: '#d9534f' }
+          { color: '#2575AB ' } // #d9534f
         ]
       },
       {
@@ -70,7 +70,8 @@ $(document).ready(function () {
     var marker = new google.maps.Marker({
       position: my_location,
       url: '/',
-      animation: google.maps.Animation.DROP
+      animation: google.maps.Animation.DROP,
+      icon: 'https://77d4cec2e6b2e571bd03e63a6d0c16d527724830.googledrive.com/host/0B9LVk4xbDIJTbkRpcnFNVUVCNFE' // http://stackoverflow.com/questions/10376617/how-do-you-create-a-marker-with-a-custom-icon-for-google-maps-api-v3
     });
 
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
