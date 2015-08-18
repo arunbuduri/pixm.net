@@ -135,9 +135,34 @@ sub a{
 		font-size: 44px;
 	}
 
+.slideshow .btn{
+	box-shadow: 3px 3px 22px rgba(0, 0, 0, 0.63);
+	border: 2px solid #2575AB;
+    background-color: rgba(37, 117, 171, 0.27);
+}
+	.slideshow .btn:hover{
+		border: 2px solid #2575AB;
+		background-color: #2575AB;
+	}
+
 .contact .alert {
   padding: 20px 44px 0 48px;
   background-color: #2F3C49;
   color: #fff;
   border: 1px solid #476A8B;
+}
+	.contact .vcard{
+		left: 222px;
+	    top: 33px;
+	    right: inherit;
+	}
+	.contact .vcard a{
+		color: #55BAFF;
+	}
+
+.footer-logo{
+	background: #2b3e50 url(https://821e7ef77464ad52348a37f571bce1d74212e02a.googledrive.com/host/0B4vEEqs-tDY1Q3poaG5FOVRUQUU) center no-repeat;
+    padding: 71px 72px;
+    margin: -43px auto auto;
+    display: block;
 }

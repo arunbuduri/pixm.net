@@ -104,11 +104,10 @@ body{
 	border: 2px solid #2575AB;
     background-color: rgba(37, 117, 171, 0.27);
 }
-
-.slideshow .btn:hover{
-	border: 2px solid #2575AB;
-	background-color: #2575AB;
-}
+	.slideshow .btn:hover{
+		border: 2px solid #2575AB;
+		background-color: #2575AB;
+	}
 
 .contact .vcard{
 	left: 222px;
