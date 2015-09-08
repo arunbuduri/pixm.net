@@ -1,0 +1,1481 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'update' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose registry.get https://registry.npmjs.org/acorn not expired, no request
+5 verbose registry.get https://registry.npmjs.org/apache-server-configs not expired, no request
+6 verbose registry.get https://registry.npmjs.org/chai not expired, no request
+7 verbose registry.get https://registry.npmjs.org/chai-jquery not expired, no request
+8 verbose registry.get https://registry.npmjs.org/del not expired, no request
+9 verbose registry.get https://registry.npmjs.org/browser-sync not expired, no request
+10 verbose registry.get https://registry.npmjs.org/drool not expired, no request
+11 verbose registry.get https://registry.npmjs.org/escodegen not expired, no request
+12 verbose registry.get https://registry.npmjs.org/gulp not expired, no request
+13 verbose registry.get https://registry.npmjs.org/gulp-autoprefixer not expired, no request
+14 verbose registry.get https://registry.npmjs.org/gulp-cache not expired, no request
+15 verbose registry.get https://registry.npmjs.org/gulp-changed not expired, no request
+16 verbose registry.get https://registry.npmjs.org/gulp-concat not expired, no request
+17 verbose registry.get https://registry.npmjs.org/gulp-connect not expired, no request
+18 verbose registry.get https://registry.npmjs.org/gulp-css-inline-images not expired, no request
+19 verbose registry.get https://registry.npmjs.org/gulp-csso not expired, no request
+20 verbose registry.get https://registry.npmjs.org/gulp-file not expired, no request
+21 verbose registry.get https://registry.npmjs.org/gulp-filter not expired, no request
+22 verbose registry.get https://registry.npmjs.org/gulp-flatten not expired, no request
+23 verbose registry.get https://registry.npmjs.org/gulp-front-matter not expired, no request
+24 verbose registry.get https://registry.npmjs.org/gulp-gh-pages not expired, no request
+25 verbose registry.get https://registry.npmjs.org/gulp-header not expired, no request
+26 verbose registry.get https://registry.npmjs.org/gulp-if not expired, no request
+27 verbose registry.get https://registry.npmjs.org/gulp-iife not expired, no request
+28 verbose registry.get https://registry.npmjs.org/gulp-imagemin not expired, no request
+29 verbose registry.get https://registry.npmjs.org/gulp-jscs not expired, no request
+30 verbose registry.get https://registry.npmjs.org/gulp-jshint not expired, no request
+31 verbose registry.get https://registry.npmjs.org/gulp-load-plugins not expired, no request
+32 verbose registry.get https://registry.npmjs.org/gulp-markdown not expired, no request
+33 verbose registry.get https://registry.npmjs.org/gulp-marked not expired, no request
+34 verbose registry.get https://registry.npmjs.org/gulp-minify-html not expired, no request
+35 verbose registry.get https://registry.npmjs.org/gulp-mocha-phantomjs not expired, no request
+36 verbose registry.get https://registry.npmjs.org/gulp-open not expired, no request
+37 verbose registry.get https://registry.npmjs.org/gulp-rename not expired, no request
+38 verbose registry.get https://registry.npmjs.org/gulp-replace not expired, no request
+39 verbose registry.get https://registry.npmjs.org/gulp-sass not expired, no request
+40 verbose registry.get https://registry.npmjs.org/gulp-shell not expired, no request
+41 verbose registry.get https://registry.npmjs.org/gulp-size not expired, no request
+42 verbose registry.get https://registry.npmjs.org/gulp-sourcemaps not expired, no request
+43 verbose registry.get https://registry.npmjs.org/gulp-subtree not expired, no request
+44 verbose registry.get https://registry.npmjs.org/gulp-tap not expired, no request
+45 verbose registry.get https://registry.npmjs.org/gulp-uglify not expired, no request
+46 verbose registry.get https://registry.npmjs.org/gulp-useref not expired, no request
+47 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+48 verbose registry.get https://registry.npmjs.org/gulp-zip not expired, no request
+49 verbose registry.get https://registry.npmjs.org/humanize not expired, no request
+50 verbose registry.get https://registry.npmjs.org/jquery not expired, no request
+51 verbose registry.get https://registry.npmjs.org/jshint-stylish not expired, no request
+52 verbose registry.get https://registry.npmjs.org/merge-stream not expired, no request
+53 verbose registry.get https://registry.npmjs.org/opn not expired, no request
+54 verbose registry.get https://registry.npmjs.org/mocha not expired, no request
+55 verbose registry.get https://registry.npmjs.org/phantomjs not expired, no request
+56 verbose registry.get https://registry.npmjs.org/prismjs not expired, no request
+57 verbose registry.get https://registry.npmjs.org/require-dir not expired, no request
+58 verbose registry.get https://registry.npmjs.org/run-sequence not expired, no request
+59 verbose registry.get https://registry.npmjs.org/swig not expired, no request
+60 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+61 verbose registry.get https://registry.npmjs.org/vinyl-paths not expired, no request
+62 verbose registry.get https://registry.npmjs.org/anymatch not expired, no request
+63 verbose registry.get https://registry.npmjs.org/async-each-series not expired, no request
+64 verbose registry.get https://registry.npmjs.org/browser-sync-client not expired, no request
+65 verbose registry.get https://registry.npmjs.org/browser-sync-ui not expired, no request
+66 verbose registry.get https://registry.npmjs.org/chokidar not expired, no request
+67 verbose registry.get https://registry.npmjs.org/dev-ip not expired, no request
+68 verbose registry.get https://registry.npmjs.org/easy-extender not expired, no request
+69 verbose registry.get https://registry.npmjs.org/emitter-steward not expired, no request
+70 verbose registry.get https://registry.npmjs.org/connect not expired, no request
+71 verbose registry.get https://registry.npmjs.org/eazy-logger not expired, no request
+72 verbose registry.get https://registry.npmjs.org/foxy not expired, no request
+73 verbose registry.get https://registry.npmjs.org/localtunnel not expired, no request
+74 verbose registry.get https://registry.npmjs.org/immutable not expired, no request
+75 verbose registry.get https://registry.npmjs.org/longest not expired, no request
+76 verbose registry.get https://registry.npmjs.org/lodash not expired, no request
+77 verbose registry.get https://registry.npmjs.org/meow not expired, no request
+78 verbose registry.get https://registry.npmjs.org/opn not expired, no request
+79 verbose registry.get https://registry.npmjs.org/pad-left not expired, no request
+80 verbose registry.get https://registry.npmjs.org/query-string not expired, no request
+81 verbose registry.get https://registry.npmjs.org/portscanner not expired, no request
+82 verbose registry.get https://registry.npmjs.org/resp-modifier not expired, no request
+83 verbose registry.get https://registry.npmjs.org/serve-static not expired, no request
+84 verbose registry.get https://registry.npmjs.org/serve-index not expired, no request
+85 verbose registry.get https://registry.npmjs.org/socket.io not expired, no request
+86 verbose registry.get https://registry.npmjs.org/ucfirst not expired, no request
+87 verbose registry.get https://registry.npmjs.org/ua-parser-js not expired, no request
+88 verbose registry.get https://registry.npmjs.org/estraverse not expired, no request
+89 verbose registry.get https://registry.npmjs.org/selenium-webdriver not expired, no request
+90 verbose registry.get https://registry.npmjs.org/esutils not expired, no request
+91 verbose registry.get https://registry.npmjs.org/esprima not expired, no request
+92 verbose registry.get https://registry.npmjs.org/optionator not expired, no request
+93 verbose registry.get https://registry.npmjs.org/archy not expired, no request
+94 verbose registry.get https://registry.npmjs.org/source-map not expired, no request
+95 verbose registry.get https://registry.npmjs.org/chalk not expired, no request
+96 verbose registry.get https://registry.npmjs.org/deprecated not expired, no request
+97 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+98 verbose registry.get https://registry.npmjs.org/interpret not expired, no request
+99 verbose registry.get https://registry.npmjs.org/minimist not expired, no request
+100 verbose registry.get https://registry.npmjs.org/liftoff not expired, no request
+101 verbose registry.get https://registry.npmjs.org/orchestrator not expired, no request
+102 verbose registry.get https://registry.npmjs.org/pretty-hrtime not expired, no request
+103 verbose registry.get https://registry.npmjs.org/semver not expired, no request
+104 verbose registry.get https://registry.npmjs.org/v8flags not expired, no request
+105 verbose registry.get https://registry.npmjs.org/vinyl-fs not expired, no request
+106 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+107 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+108 verbose registry.get https://registry.npmjs.org/tildify not expired, no request
+109 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+110 verbose registry.get https://registry.npmjs.org/connect-livereload not expired, no request
+111 verbose registry.get https://registry.npmjs.org/event-stream not expired, no request
+112 verbose registry.get https://registry.npmjs.org/tiny-lr not expired, no request
+113 verbose registry.get https://registry.npmjs.org/gulp-match not expired, no request
+114 verbose registry.get https://registry.npmjs.org/connect not expired, no request
+115 verbose registry.get https://registry.npmjs.org/ternary-stream not expired, no request
+116 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+117 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+118 verbose registry.get https://registry.npmjs.org/minimatch not expired, no request
+119 verbose registry.get https://registry.npmjs.org/jshint not expired, no request
+120 verbose registry.get https://registry.npmjs.org/rcloader not expired, no request
+121 verbose registry.get https://registry.npmjs.org/lodash not expired, no request
+122 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+123 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+124 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+125 verbose registry.get https://registry.npmjs.org/object-assign not expired, no request
+126 verbose registry.get https://registry.npmjs.org/vinyl-sourcemaps-apply not expired, no request
+127 verbose registry.get https://registry.npmjs.org/node-sass not expired, no request
+128 verbose registry.get https://registry.npmjs.org/deap not expired, no request
+129 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+130 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+131 verbose registry.get https://registry.npmjs.org/uglify-save-license not expired, no request
+132 verbose registry.get https://registry.npmjs.org/vinyl-sourcemaps-apply not expired, no request
+133 verbose registry.get https://registry.npmjs.org/uglify-js not expired, no request
+134 verbose registry.get https://registry.npmjs.org/array-differ not expired, no request
+135 verbose registry.get https://registry.npmjs.org/array-uniq not expired, no request
+136 verbose registry.get https://registry.npmjs.org/beeper not expired, no request
+137 verbose registry.get https://registry.npmjs.org/chalk not expired, no request
+138 verbose registry.get https://registry.npmjs.org/dateformat not expired, no request
+139 verbose registry.get https://registry.npmjs.org/lodash._reescape not expired, no request
+140 verbose registry.get https://registry.npmjs.org/lodash._reevaluate not expired, no request
+141 verbose registry.get https://registry.npmjs.org/lodash._reinterpolate not expired, no request
+142 verbose registry.get https://registry.npmjs.org/minimist not expired, no request
+143 verbose registry.get https://registry.npmjs.org/multipipe not expired, no request
+144 verbose registry.get https://registry.npmjs.org/lodash.template not expired, no request
+145 verbose registry.get https://registry.npmjs.org/replace-ext not expired, no request
+146 verbose registry.get https://registry.npmjs.org/object-assign not expired, no request
+147 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+148 verbose registry.get https://registry.npmjs.org/vinyl not expired, no request
+149 verbose registry.get https://registry.npmjs.org/commander not expired, no request
+150 verbose registry.get https://registry.npmjs.org/debug not expired, no request
+151 verbose registry.get https://registry.npmjs.org/escape-string-regexp not expired, no request
+152 verbose registry.get https://registry.npmjs.org/diff not expired, no request
+153 verbose registry.get https://registry.npmjs.org/growl not expired, no request
+154 verbose registry.get https://registry.npmjs.org/glob not expired, no request
+155 verbose registry.get https://registry.npmjs.org/mkdirp not expired, no request
+156 verbose registry.get https://registry.npmjs.org/supports-color not expired, no request
+157 verbose registry.get https://registry.npmjs.org/adm-zip not expired, no request
+158 verbose registry.get https://registry.npmjs.org/jade not expired, no request
+159 verbose registry.get https://registry.npmjs.org/kew not expired, no request
+160 verbose registry.get https://registry.npmjs.org/fs-extra not expired, no request
+161 verbose registry.get https://registry.npmjs.org/progress not expired, no request
+162 verbose registry.get https://registry.npmjs.org/npmconf not expired, no request
+163 verbose registry.get https://registry.npmjs.org/request-progress not expired, no request
+164 verbose registry.get https://registry.npmjs.org/which not expired, no request
+165 verbose registry.get https://registry.npmjs.org/chalk not expired, no request
+166 verbose registry.get https://registry.npmjs.org/request not expired, no request
+167 verbose registry.get https://registry.npmjs.org/optimist not expired, no request
+168 verbose registry.get https://registry.npmjs.org/uglify-js not expired, no request
+169 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+170 verbose registry.get https://registry.npmjs.org/minimize not expired, no request
+171 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+172 verbose registry.get https://registry.npmjs.org/csso not expired, no request
+173 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+174 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+175 verbose registry.get https://registry.npmjs.org/async not expired, no request
+176 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+177 verbose registry.get https://registry.npmjs.org/lodash not expired, no request
+178 verbose registry.get https://registry.npmjs.org/event-stream not expired, no request
+179 verbose registry.get https://registry.npmjs.org/concat-with-sourcemaps not expired, no request
+180 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+181 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+182 verbose registry.get https://registry.npmjs.org/css-inline-images not expired, no request
+183 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+184 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+185 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+186 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+187 verbose registry.get https://registry.npmjs.org/front-matter not expired, no request
+188 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+189 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+190 verbose registry.get https://registry.npmjs.org/tryit not expired, no request
+191 verbose registry.get https://registry.npmjs.org/vinyl-bufferstream not expired, no request
+192 verbose registry.get https://registry.npmjs.org/gift not expired, no request
+193 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+194 verbose registry.get https://registry.npmjs.org/rimraf not expired, no request
+195 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+196 verbose registry.get https://registry.npmjs.org/vinyl-fs not expired, no request
+197 verbose registry.get https://registry.npmjs.org/wrap-promise not expired, no request
+198 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+199 verbose registry.get https://registry.npmjs.org/object-assign not expired, no request
+200 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+201 verbose registry.get https://registry.npmjs.org/concat-with-sourcemaps not expired, no request
+202 verbose registry.get https://registry.npmjs.org/chalk not expired, no request
+203 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+204 verbose registry.get https://registry.npmjs.org/object-assign not expired, no request
+205 verbose registry.get https://registry.npmjs.org/imagemin not expired, no request
+206 verbose registry.get https://registry.npmjs.org/plur not expired, no request
+207 verbose registry.get https://registry.npmjs.org/pretty-bytes not expired, no request
+208 verbose registry.get https://registry.npmjs.org/through2-concurrent not expired, no request
+209 verbose registry.get https://registry.npmjs.org/marked not expired, no request
+210 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+211 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+212 verbose registry.get https://registry.npmjs.org/marked not expired, no request
+213 verbose registry.get https://registry.npmjs.org/bufferstreams not expired, no request
+214 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+215 verbose registry.get https://registry.npmjs.org/istextorbinary not expired, no request
+216 verbose registry.get https://registry.npmjs.org/lodash not expired, no request
+217 verbose registry.get https://registry.npmjs.org/readable-stream not expired, no request
+218 verbose registry.get https://registry.npmjs.org/replacestream not expired, no request
+219 verbose registry.get https://registry.npmjs.org/convert-source-map not expired, no request
+220 verbose registry.get https://registry.npmjs.org/graceful-fs not expired, no request
+221 verbose registry.get https://registry.npmjs.org/strip-bom not expired, no request
+222 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+223 verbose registry.get https://registry.npmjs.org/vinyl not expired, no request
+224 verbose registry.get https://registry.npmjs.org/brace-expansion not expired, no request
+225 verbose registry.get https://registry.npmjs.org/event-stream not expired, no request
+226 verbose registry.get https://registry.npmjs.org/gulp-concat not expired, no request
+227 verbose registry.get https://registry.npmjs.org/gulp-if not expired, no request
+228 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+229 verbose registry.get https://registry.npmjs.org/is-relative-url not expired, no request
+230 verbose registry.get https://registry.npmjs.org/lodash not expired, no request
+231 verbose registry.get https://registry.npmjs.org/multimatch not expired, no request
+232 verbose registry.get https://registry.npmjs.org/node-useref not expired, no request
+233 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+234 verbose registry.get https://registry.npmjs.org/vinyl-fs not expired, no request
+235 verbose registry.get https://registry.npmjs.org/chalk not expired, no request
+236 verbose registry.get https://registry.npmjs.org/concat-stream not expired, no request
+237 verbose registry.get https://registry.npmjs.org/gulp-util not expired, no request
+238 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+239 verbose registry.get https://registry.npmjs.org/yazl not expired, no request
+240 verbose registry.get https://registry.npmjs.org/readable-stream not expired, no request
+241 verbose registry.get https://registry.npmjs.org/xtend not expired, no request
+242 verbose registry.get https://registry.npmjs.org/source-map not expired, no request
+243 verbose registry.get https://registry.npmjs.org/yaml-js not expired, no request
+244 verbose registry.get https://registry.npmjs.org/bufferstreams not expired, no request
+245 verbose registry.get https://registry.npmjs.org/underscore not expired, no request
+246 verbose registry.get https://registry.npmjs.org/duplexify not expired, no request
+247 verbose registry.get https://registry.npmjs.org/glob-stream not expired, no request
+248 verbose registry.get https://registry.npmjs.org/glob-watcher not expired, no request
+249 verbose registry.get https://registry.npmjs.org/graceful-fs not expired, no request
+250 verbose registry.get https://registry.npmjs.org/merge-stream not expired, no request
+251 verbose registry.get https://registry.npmjs.org/mkdirp not expired, no request
+252 verbose registry.get https://registry.npmjs.org/object-assign not expired, no request
+253 verbose registry.get https://registry.npmjs.org/strip-bom not expired, no request
+254 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+255 verbose registry.get https://registry.npmjs.org/vinyl not expired, no request
+256 verbose registry.get https://registry.npmjs.org/source-map not expired, no request
+257 verbose registry.get https://registry.npmjs.org/es6-promise not expired, no request
+258 verbose registry.get https://registry.npmjs.org/buffer-to-vinyl not expired, no request
+259 verbose registry.get https://registry.npmjs.org/concat-stream not expired, no request
+260 verbose registry.get https://registry.npmjs.org/get-stdin not expired, no request
+261 verbose registry.get https://registry.npmjs.org/meow not expired, no request
+262 verbose registry.get https://registry.npmjs.org/optional not expired, no request
+263 verbose registry.get https://registry.npmjs.org/path-exists not expired, no request
+264 verbose registry.get https://registry.npmjs.org/stream-combiner2 not expired, no request
+265 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+266 verbose registry.get https://registry.npmjs.org/vinyl-fs not expired, no request
+267 verbose registry.get https://registry.npmjs.org/imagemin-gifsicle not expired, no request
+268 verbose registry.get https://registry.npmjs.org/imagemin-jpegtran not expired, no request
+269 verbose registry.get https://registry.npmjs.org/imagemin-optipng not expired, no request
+270 verbose registry.get https://registry.npmjs.org/imagemin-svgo not expired, no request
+271 verbose registry.get https://registry.npmjs.org/get-stdin not expired, no request
+272 verbose registry.get https://registry.npmjs.org/number-is-nan not expired, no request
+273 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+274 verbose registry.get https://registry.npmjs.org/meow not expired, no request
+275 verbose registry.get https://registry.npmjs.org/textextensions not expired, no request
+276 verbose registry.get https://registry.npmjs.org/binaryextensions not expired, no request
+277 verbose registry.get https://registry.npmjs.org/core-util-is not expired, no request
+278 verbose registry.get https://registry.npmjs.org/inherits not expired, no request
+279 verbose registry.get https://registry.npmjs.org/isarray not expired, no request
+280 verbose registry.get https://registry.npmjs.org/process-nextick-args not expired, no request
+281 verbose registry.get https://registry.npmjs.org/string_decoder not expired, no request
+282 verbose registry.get https://registry.npmjs.org/util-deprecate not expired, no request
+283 verbose registry.get https://registry.npmjs.org/escape-string-regexp not expired, no request
+284 verbose registry.get https://registry.npmjs.org/object-assign not expired, no request
+285 verbose registry.get https://registry.npmjs.org/readable-stream not expired, no request
+286 verbose registry.get https://registry.npmjs.org/balanced-match not expired, no request
+287 verbose registry.get https://registry.npmjs.org/concat-map not expired, no request
+288 verbose registry.get https://registry.npmjs.org/is-absolute-url not expired, no request
+289 verbose registry.get https://registry.npmjs.org/inherits not expired, no request
+290 verbose registry.get https://registry.npmjs.org/typedarray not expired, no request
+291 verbose registry.get https://registry.npmjs.org/readable-stream not expired, no request
+292 verbose registry.get https://registry.npmjs.org/buffer-crc32 not expired, no request
+293 info outdated updating [ [ '/home/ubuntu/workspace',
+293 info outdated     'chai',
+293 info outdated     '2.3.0',
+293 info outdated     '2.3.0',
+293 info outdated     '3.2.0',
+293 info outdated     '^2.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'del',
+293 info outdated     '1.2.1',
+293 info outdated     '1.2.1',
+293 info outdated     '2.0.1',
+293 info outdated     '^1.1.1' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-autoprefixer',
+293 info outdated     '2.3.1',
+293 info outdated     '2.3.1',
+293 info outdated     '3.0.1',
+293 info outdated     '^2.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-cache',
+293 info outdated     '0.2.10',
+293 info outdated     '0.2.10',
+293 info outdated     '0.3.0',
+293 info outdated     '^0.2.6' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-filter',
+293 info outdated     '2.0.2',
+293 info outdated     '2.0.2',
+293 info outdated     '3.0.1',
+293 info outdated     '^2.0.2' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-flatten',
+293 info outdated     '0.0.4',
+293 info outdated     '0.0.4',
+293 info outdated     '0.2.0',
+293 info outdated     '0.0.4' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-iife',
+293 info outdated     '0.0.7',
+293 info outdated     '0.0.7',
+293 info outdated     '0.1.0',
+293 info outdated     '0.0.7' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-jscs',
+293 info outdated     '1.6.0',
+293 info outdated     '1.6.0',
+293 info outdated     '2.0.0',
+293 info outdated     '^1.6.0' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-load-plugins',
+293 info outdated     '0.10.0',
+293 info outdated     '0.10.0',
+293 info outdated     '1.0.0-rc.1',
+293 info outdated     '^0.10.0' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-mocha-phantomjs',
+293 info outdated     '0.6.1',
+293 info outdated     '0.6.1',
+293 info outdated     '0.10.1',
+293 info outdated     '^0.6.1' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-open',
+293 info outdated     '0.3.2',
+293 info outdated     '0.3.2',
+293 info outdated     '1.0.0',
+293 info outdated     '^0.3.2' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'gulp-size',
+293 info outdated     '1.3.0',
+293 info outdated     '1.3.0',
+293 info outdated     '2.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'jshint-stylish',
+293 info outdated     '1.0.2',
+293 info outdated     '1.0.2',
+293 info outdated     '2.0.1',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'merge-stream',
+293 info outdated     '0.1.8',
+293 info outdated     '0.1.8',
+293 info outdated     '1.0.0',
+293 info outdated     '^0.1.7' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'opn',
+293 info outdated     '1.0.2',
+293 info outdated     '1.0.2',
+293 info outdated     '3.0.2',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace',
+293 info outdated     'vinyl-paths',
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '2.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'anymatch',
+293 info outdated     undefined,
+293 info outdated     '1.3.0',
+293 info outdated     '1.3.0',
+293 info outdated     '^1.3.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'async-each-series',
+293 info outdated     undefined,
+293 info outdated     '0.1.1',
+293 info outdated     '1.0.0',
+293 info outdated     '^0.1.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'browser-sync-client',
+293 info outdated     undefined,
+293 info outdated     '2.3.0',
+293 info outdated     '2.3.0',
+293 info outdated     '^2.3.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'browser-sync-ui',
+293 info outdated     undefined,
+293 info outdated     '0.5.16',
+293 info outdated     '0.5.16',
+293 info outdated     '^0.5.16' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'chokidar',
+293 info outdated     undefined,
+293 info outdated     '1.0.5',
+293 info outdated     '1.0.5',
+293 info outdated     '^1.0.5' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'dev-ip',
+293 info outdated     undefined,
+293 info outdated     '1.0.1',
+293 info outdated     '1.0.1',
+293 info outdated     '^1.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'easy-extender',
+293 info outdated     undefined,
+293 info outdated     '2.3.1',
+293 info outdated     '2.3.1',
+293 info outdated     '^2.3.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'emitter-steward',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'connect',
+293 info outdated     undefined,
+293 info outdated     '3.4.0',
+293 info outdated     '3.4.0',
+293 info outdated     '^3.4.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'eazy-logger',
+293 info outdated     undefined,
+293 info outdated     '2.1.2',
+293 info outdated     '2.1.2',
+293 info outdated     '^2.1.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'foxy',
+293 info outdated     undefined,
+293 info outdated     '11.1.3',
+293 info outdated     '11.1.3',
+293 info outdated     '^11.1.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'localtunnel',
+293 info outdated     undefined,
+293 info outdated     '1.7.0',
+293 info outdated     '1.7.0',
+293 info outdated     '^1.7.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'immutable',
+293 info outdated     undefined,
+293 info outdated     '3.7.5',
+293 info outdated     '3.7.5',
+293 info outdated     '^3.7.4' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'longest',
+293 info outdated     undefined,
+293 info outdated     '1.0.1',
+293 info outdated     '1.0.1',
+293 info outdated     '^1.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'lodash',
+293 info outdated     undefined,
+293 info outdated     '3.10.1',
+293 info outdated     '3.10.1',
+293 info outdated     '^3.9.3' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'meow',
+293 info outdated     undefined,
+293 info outdated     '3.3.0',
+293 info outdated     '3.3.0',
+293 info outdated     '^3.3.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'opn',
+293 info outdated     '1.0.2',
+293 info outdated     '2.0.1',
+293 info outdated     '3.0.2',
+293 info outdated     '^2.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'pad-left',
+293 info outdated     undefined,
+293 info outdated     '1.0.2',
+293 info outdated     '2.0.0',
+293 info outdated     '^1.0.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'query-string',
+293 info outdated     undefined,
+293 info outdated     '2.4.1',
+293 info outdated     '2.4.1',
+293 info outdated     '^2.4.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'portscanner',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'resp-modifier',
+293 info outdated     undefined,
+293 info outdated     '5.0.2',
+293 info outdated     '5.0.2',
+293 info outdated     '^5.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'serve-static',
+293 info outdated     undefined,
+293 info outdated     '1.10.0',
+293 info outdated     '1.10.0',
+293 info outdated     '^1.10.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'serve-index',
+293 info outdated     undefined,
+293 info outdated     '1.7.2',
+293 info outdated     '1.7.2',
+293 info outdated     '^1.7.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'socket.io',
+293 info outdated     undefined,
+293 info outdated     '1.3.6',
+293 info outdated     '1.3.6',
+293 info outdated     '^1.3.6' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'ucfirst',
+293 info outdated     undefined,
+293 info outdated     '0.0.1',
+293 info outdated     '1.0.0',
+293 info outdated     '0.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/browser-sync',
+293 info outdated     'ua-parser-js',
+293 info outdated     undefined,
+293 info outdated     '0.7.9',
+293 info outdated     '0.7.9',
+293 info outdated     '^0.7.9' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/drool',
+293 info outdated     'selenium-webdriver',
+293 info outdated     undefined,
+293 info outdated     '2.46.1',
+293 info outdated     '2.46.1',
+293 info outdated     '^2.46.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/escodegen',
+293 info outdated     'estraverse',
+293 info outdated     undefined,
+293 info outdated     '1.9.3',
+293 info outdated     '4.1.0',
+293 info outdated     '^1.9.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/escodegen',
+293 info outdated     'esutils',
+293 info outdated     undefined,
+293 info outdated     '2.0.2',
+293 info outdated     '2.0.2',
+293 info outdated     '^2.0.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/escodegen',
+293 info outdated     'esprima',
+293 info outdated     undefined,
+293 info outdated     '1.2.5',
+293 info outdated     '2.6.0',
+293 info outdated     '^1.2.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/escodegen',
+293 info outdated     'optionator',
+293 info outdated     undefined,
+293 info outdated     '0.5.0',
+293 info outdated     '0.6.0',
+293 info outdated     '^0.5.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/escodegen',
+293 info outdated     'source-map',
+293 info outdated     undefined,
+293 info outdated     '0.2.0',
+293 info outdated     '0.4.4',
+293 info outdated     '~0.2.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-connect',
+293 info outdated     'gulp-util',
+293 info outdated     '3.0.6',
+293 info outdated     '2.2.20',
+293 info outdated     '3.0.6',
+293 info outdated     '~2.2.14' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-connect',
+293 info outdated     'connect-livereload',
+293 info outdated     undefined,
+293 info outdated     '0.3.2',
+293 info outdated     '0.5.3',
+293 info outdated     '~0.3.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-connect',
+293 info outdated     'event-stream',
+293 info outdated     undefined,
+293 info outdated     '3.1.7',
+293 info outdated     '3.3.1',
+293 info outdated     '~3.1.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-connect',
+293 info outdated     'tiny-lr',
+293 info outdated     undefined,
+293 info outdated     '0.0.7',
+293 info outdated     '0.1.6',
+293 info outdated     '^0.0.7' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-connect',
+293 info outdated     'connect',
+293 info outdated     undefined,
+293 info outdated     '2.17.3',
+293 info outdated     '3.4.0',
+293 info outdated     '<2.18.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-if',
+293 info outdated     'gulp-match',
+293 info outdated     undefined,
+293 info outdated     '0.2.1',
+293 info outdated     '0.2.1',
+293 info outdated     '~0.2.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-if',
+293 info outdated     'ternary-stream',
+293 info outdated     undefined,
+293 info outdated     '1.2.3',
+293 info outdated     '1.2.3',
+293 info outdated     '^1.2.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-if',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '~0.6.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/mocha',
+293 info outdated     'commander',
+293 info outdated     undefined,
+293 info outdated     '2.3.0',
+293 info outdated     '2.8.1',
+293 info outdated     '2.3.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/mocha',
+293 info outdated     'debug',
+293 info outdated     undefined,
+293 info outdated     '2.0.0',
+293 info outdated     '2.2.0',
+293 info outdated     '2.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/mocha',
+293 info outdated     'escape-string-regexp',
+293 info outdated     undefined,
+293 info outdated     '1.0.2',
+293 info outdated     '1.0.3',
+293 info outdated     '1.0.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/mocha',
+293 info outdated     'diff',
+293 info outdated     undefined,
+293 info outdated     '1.4.0',
+293 info outdated     '2.1.0',
+293 info outdated     '1.4.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/mocha',
+293 info outdated     'growl',
+293 info outdated     undefined,
+293 info outdated     '1.8.1',
+293 info outdated     '1.8.1',
+293 info outdated     '1.8.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/mocha',
+293 info outdated     'glob',
+293 info outdated     undefined,
+293 info outdated     '3.2.3',
+293 info outdated     '5.0.14',
+293 info outdated     '3.2.3' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/mocha',
+293 info outdated     'mkdirp',
+293 info outdated     undefined,
+293 info outdated     '0.5.0',
+293 info outdated     '0.5.1',
+293 info outdated     '0.5.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/mocha',
+293 info outdated     'supports-color',
+293 info outdated     undefined,
+293 info outdated     '1.2.0',
+293 info outdated     '3.1.1',
+293 info outdated     '1.2.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/mocha',
+293 info outdated     'jade',
+293 info outdated     undefined,
+293 info outdated     '1.11.0',
+293 info outdated     '1.11.0',
+293 info outdated     '1.11.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/run-sequence',
+293 info outdated     'chalk',
+293 info outdated     undefined,
+293 info outdated     '1.1.1',
+293 info outdated     '1.1.1',
+293 info outdated     '*' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/phantomjs',
+293 info outdated     'adm-zip',
+293 info outdated     undefined,
+293 info outdated     '0.4.4',
+293 info outdated     '0.4.7',
+293 info outdated     '0.4.4' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/phantomjs',
+293 info outdated     'kew',
+293 info outdated     undefined,
+293 info outdated     '0.4.0',
+293 info outdated     '0.7.0',
+293 info outdated     '0.4.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/phantomjs',
+293 info outdated     'fs-extra',
+293 info outdated     undefined,
+293 info outdated     '0.23.1',
+293 info outdated     '0.24.0',
+293 info outdated     '~0.23.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/phantomjs',
+293 info outdated     'progress',
+293 info outdated     undefined,
+293 info outdated     '1.1.8',
+293 info outdated     '1.1.8',
+293 info outdated     '1.1.8' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/phantomjs',
+293 info outdated     'npmconf',
+293 info outdated     undefined,
+293 info outdated     '2.1.1',
+293 info outdated     '2.1.2',
+293 info outdated     '2.1.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/phantomjs',
+293 info outdated     'request-progress',
+293 info outdated     undefined,
+293 info outdated     '0.3.1',
+293 info outdated     '0.3.1',
+293 info outdated     '0.3.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/phantomjs',
+293 info outdated     'which',
+293 info outdated     undefined,
+293 info outdated     '1.0.9',
+293 info outdated     '1.1.1',
+293 info outdated     '~1.0.5' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/phantomjs',
+293 info outdated     'request',
+293 info outdated     undefined,
+293 info outdated     '2.42.0',
+293 info outdated     '2.61.0',
+293 info outdated     '2.42.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/swig',
+293 info outdated     'optimist',
+293 info outdated     undefined,
+293 info outdated     '0.6.1',
+293 info outdated     '0.6.1',
+293 info outdated     '~0.6' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/swig',
+293 info outdated     'uglify-js',
+293 info outdated     undefined,
+293 info outdated     '2.4.24',
+293 info outdated     '2.4.24',
+293 info outdated     '~2.4' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'archy',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'chalk',
+293 info outdated     undefined,
+293 info outdated     '1.1.1',
+293 info outdated     '1.1.1',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'deprecated',
+293 info outdated     undefined,
+293 info outdated     '0.0.1',
+293 info outdated     '0.0.1',
+293 info outdated     '^0.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'interpret',
+293 info outdated     undefined,
+293 info outdated     '0.6.5',
+293 info outdated     '0.6.5',
+293 info outdated     '^0.6.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'minimist',
+293 info outdated     undefined,
+293 info outdated     '1.2.0',
+293 info outdated     '1.2.0',
+293 info outdated     '^1.1.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'liftoff',
+293 info outdated     undefined,
+293 info outdated     '2.1.0',
+293 info outdated     '2.1.0',
+293 info outdated     '^2.1.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'orchestrator',
+293 info outdated     undefined,
+293 info outdated     '0.3.7',
+293 info outdated     '0.3.7',
+293 info outdated     '^0.3.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'pretty-hrtime',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'semver',
+293 info outdated     undefined,
+293 info outdated     '4.3.6',
+293 info outdated     '5.0.1',
+293 info outdated     '^4.1.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'v8flags',
+293 info outdated     undefined,
+293 info outdated     '2.0.10',
+293 info outdated     '2.0.10',
+293 info outdated     '^2.0.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'vinyl-fs',
+293 info outdated     undefined,
+293 info outdated     '0.3.13',
+293 info outdated     '1.0.0',
+293 info outdated     '^0.3.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp',
+293 info outdated     'tildify',
+293 info outdated     undefined,
+293 info outdated     '1.1.0',
+293 info outdated     '1.1.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-jshint',
+293 info outdated     'minimatch',
+293 info outdated     undefined,
+293 info outdated     '2.0.10',
+293 info outdated     '2.0.10',
+293 info outdated     '^2.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-jshint',
+293 info outdated     'jshint',
+293 info outdated     undefined,
+293 info outdated     '2.8.0',
+293 info outdated     '2.8.0',
+293 info outdated     '^2.7.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-jshint',
+293 info outdated     'rcloader',
+293 info outdated     undefined,
+293 info outdated     '0.1.2',
+293 info outdated     '0.1.4',
+293 info outdated     '0.1.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-jshint',
+293 info outdated     'lodash',
+293 info outdated     undefined,
+293 info outdated     '3.10.1',
+293 info outdated     '3.10.1',
+293 info outdated     '^3.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-jshint',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '~0.6.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-sass',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.3' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-sass',
+293 info outdated     'object-assign',
+293 info outdated     undefined,
+293 info outdated     '2.1.1',
+293 info outdated     '4.0.1',
+293 info outdated     '^2.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-sass',
+293 info outdated     'vinyl-sourcemaps-apply',
+293 info outdated     undefined,
+293 info outdated     '0.1.4',
+293 info outdated     '0.1.4',
+293 info outdated     '~0.1.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-sass',
+293 info outdated     'node-sass',
+293 info outdated     undefined,
+293 info outdated     '3.3.2',
+293 info outdated     '3.3.2',
+293 info outdated     '^3.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-uglify',
+293 info outdated     'deap',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '>=1.0.0 <2.0.0-0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-uglify',
+293 info outdated     'uglify-save-license',
+293 info outdated     undefined,
+293 info outdated     '0.4.1',
+293 info outdated     '0.4.1',
+293 info outdated     '>=0.4.1 <0.5.0-0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-uglify',
+293 info outdated     'vinyl-sourcemaps-apply',
+293 info outdated     undefined,
+293 info outdated     '0.1.4',
+293 info outdated     '0.1.4',
+293 info outdated     '>=0.1.1 <0.2.0-0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-uglify',
+293 info outdated     'uglify-js',
+293 info outdated     undefined,
+293 info outdated     '2.4.24',
+293 info outdated     '2.4.24',
+293 info outdated     '2.4.24' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'array-differ',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'array-uniq',
+293 info outdated     undefined,
+293 info outdated     '1.0.2',
+293 info outdated     '1.0.2',
+293 info outdated     '^1.0.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'beeper',
+293 info outdated     undefined,
+293 info outdated     '1.1.0',
+293 info outdated     '1.1.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'chalk',
+293 info outdated     undefined,
+293 info outdated     '1.1.1',
+293 info outdated     '1.1.1',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'dateformat',
+293 info outdated     undefined,
+293 info outdated     '1.0.11',
+293 info outdated     '1.0.11',
+293 info outdated     '^1.0.11' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'lodash._reescape',
+293 info outdated     undefined,
+293 info outdated     '3.0.0',
+293 info outdated     '3.0.0',
+293 info outdated     '^3.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'lodash._reevaluate',
+293 info outdated     undefined,
+293 info outdated     '3.0.0',
+293 info outdated     '3.0.0',
+293 info outdated     '^3.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'lodash._reinterpolate',
+293 info outdated     undefined,
+293 info outdated     '3.0.0',
+293 info outdated     '3.0.0',
+293 info outdated     '^3.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'minimist',
+293 info outdated     undefined,
+293 info outdated     '1.2.0',
+293 info outdated     '1.2.0',
+293 info outdated     '^1.1.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'multipipe',
+293 info outdated     undefined,
+293 info outdated     '0.1.2',
+293 info outdated     '0.1.2',
+293 info outdated     '^0.1.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'lodash.template',
+293 info outdated     undefined,
+293 info outdated     '3.6.2',
+293 info outdated     '3.6.2',
+293 info outdated     '^3.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'replace-ext',
+293 info outdated     undefined,
+293 info outdated     '0.0.1',
+293 info outdated     '0.0.1',
+293 info outdated     '0.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'object-assign',
+293 info outdated     undefined,
+293 info outdated     '3.0.0',
+293 info outdated     '4.0.1',
+293 info outdated     '^3.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-util',
+293 info outdated     'vinyl',
+293 info outdated     undefined,
+293 info outdated     '0.5.3',
+293 info outdated     '0.5.3',
+293 info outdated     '^0.5.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-minify-html',
+293 info outdated     'minimize',
+293 info outdated     undefined,
+293 info outdated     '1.7.0',
+293 info outdated     '1.7.0',
+293 info outdated     '^1.5.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-minify-html',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-tap',
+293 info outdated     'event-stream',
+293 info outdated     '3.1.7',
+293 info outdated     '3.1.7',
+293 info outdated     '3.3.1',
+293 info outdated     '~3.1.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-shell',
+293 info outdated     'lodash',
+293 info outdated     undefined,
+293 info outdated     '3.10.1',
+293 info outdated     '3.10.1',
+293 info outdated     '~3.10.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-file',
+293 info outdated     'through2',
+293 info outdated     '0.4.2',
+293 info outdated     '0.4.2',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.4.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-file',
+293 info outdated     'gulp-util',
+293 info outdated     '2.2.20',
+293 info outdated     '2.2.20',
+293 info outdated     '3.0.6',
+293 info outdated     '^2.2.14' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-marked',
+293 info outdated     'marked',
+293 info outdated     undefined,
+293 info outdated     '0.3.5',
+293 info outdated     '0.3.5',
+293 info outdated     '~0.3.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-marked',
+293 info outdated     'bufferstreams',
+293 info outdated     '0.0.1',
+293 info outdated     '0.0.1',
+293 info outdated     '1.1.0',
+293 info outdated     '0.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-marked',
+293 info outdated     'gulp-util',
+293 info outdated     '3.0.6',
+293 info outdated     '2.2.20',
+293 info outdated     '3.0.6',
+293 info outdated     '~2.2.9' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-marked',
+293 info outdated     'lodash',
+293 info outdated     '2.4.2',
+293 info outdated     '2.4.2',
+293 info outdated     '3.10.1',
+293 info outdated     '^2.4.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-sourcemaps',
+293 info outdated     'graceful-fs',
+293 info outdated     '3.0.8',
+293 info outdated     '3.0.8',
+293 info outdated     '4.1.2',
+293 info outdated     '^3.0.5' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-sourcemaps',
+293 info outdated     'strip-bom',
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '2.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-sourcemaps',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.3' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-sourcemaps',
+293 info outdated     'vinyl',
+293 info outdated     '0.4.6',
+293 info outdated     '0.4.6',
+293 info outdated     '0.5.3',
+293 info outdated     '^0.4.6' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/through2',
+293 info outdated     'readable-stream',
+293 info outdated     undefined,
+293 info outdated     '2.0.2',
+293 info outdated     '2.0.2',
+293 info outdated     '~2.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-css-inline-images',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.3' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-markdown',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-concat',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.3' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-concat/node_modules/concat-with-sourcemaps',
+293 info outdated     'source-map',
+293 info outdated     undefined,
+293 info outdated     '0.4.4',
+293 info outdated     '0.4.4',
+293 info outdated     '^0.4.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-front-matter',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.5' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-front-matter/node_modules/front-matter',
+293 info outdated     'yaml-js',
+293 info outdated     undefined,
+293 info outdated     '0.1.1',
+293 info outdated     '0.1.1',
+293 info outdated     '^0.1.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-front-matter/node_modules/vinyl-bufferstream',
+293 info outdated     'bufferstreams',
+293 info outdated     undefined,
+293 info outdated     '1.0.1',
+293 info outdated     '1.1.0',
+293 info outdated     '1.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-header/node_modules/concat-with-sourcemaps',
+293 info outdated     'source-map',
+293 info outdated     undefined,
+293 info outdated     '0.4.4',
+293 info outdated     '0.4.4',
+293 info outdated     '^0.4.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages',
+293 info outdated     'rimraf',
+293 info outdated     undefined,
+293 info outdated     '2.4.3',
+293 info outdated     '2.4.3',
+293 info outdated     '^2.3.4' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.5' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/gift',
+293 info outdated     'underscore',
+293 info outdated     undefined,
+293 info outdated     '1.8.3',
+293 info outdated     '1.8.3',
+293 info outdated     '1.x.x' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'duplexify',
+293 info outdated     undefined,
+293 info outdated     '3.4.2',
+293 info outdated     '3.4.2',
+293 info outdated     '^3.2.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'glob-stream',
+293 info outdated     undefined,
+293 info outdated     '4.1.1',
+293 info outdated     '5.0.0',
+293 info outdated     '^4.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'glob-watcher',
+293 info outdated     undefined,
+293 info outdated     '0.0.8',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.0.8' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'graceful-fs',
+293 info outdated     undefined,
+293 info outdated     '3.0.8',
+293 info outdated     '4.1.2',
+293 info outdated     '^3.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'merge-stream',
+293 info outdated     '0.1.8',
+293 info outdated     '0.1.8',
+293 info outdated     '1.0.0',
+293 info outdated     '^0.1.7' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'mkdirp',
+293 info outdated     undefined,
+293 info outdated     '0.5.1',
+293 info outdated     '0.5.1',
+293 info outdated     '^0.5.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'object-assign',
+293 info outdated     undefined,
+293 info outdated     '2.1.1',
+293 info outdated     '4.0.1',
+293 info outdated     '^2.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'strip-bom',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '2.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/vinyl-fs',
+293 info outdated     'vinyl',
+293 info outdated     undefined,
+293 info outdated     '0.4.6',
+293 info outdated     '0.5.3',
+293 info outdated     '^0.4.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-gh-pages/node_modules/wrap-promise',
+293 info outdated     'es6-promise',
+293 info outdated     undefined,
+293 info outdated     '2.3.0',
+293 info outdated     '3.0.2',
+293 info outdated     '^2.3.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-useref',
+293 info outdated     'event-stream',
+293 info outdated     undefined,
+293 info outdated     '3.3.1',
+293 info outdated     '3.3.1',
+293 info outdated     '^3.3.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-useref',
+293 info outdated     'lodash',
+293 info outdated     undefined,
+293 info outdated     '3.10.1',
+293 info outdated     '3.10.1',
+293 info outdated     '^3.3.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-useref',
+293 info outdated     'multimatch',
+293 info outdated     undefined,
+293 info outdated     '2.0.0',
+293 info outdated     '2.0.0',
+293 info outdated     '^2.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-useref',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-useref',
+293 info outdated     'vinyl-fs',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-useref/node_modules/brace-expansion',
+293 info outdated     'balanced-match',
+293 info outdated     undefined,
+293 info outdated     '0.2.0',
+293 info outdated     '0.2.0',
+293 info outdated     '^0.2.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-useref/node_modules/brace-expansion',
+293 info outdated     'concat-map',
+293 info outdated     undefined,
+293 info outdated     '0.0.1',
+293 info outdated     '0.0.1',
+293 info outdated     '0.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-useref/node_modules/is-relative-url',
+293 info outdated     'is-absolute-url',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '2.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-zip',
+293 info outdated     'chalk',
+293 info outdated     undefined,
+293 info outdated     '1.1.1',
+293 info outdated     '1.1.1',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-zip',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-zip/node_modules/concat-stream',
+293 info outdated     'inherits',
+293 info outdated     undefined,
+293 info outdated     '2.0.1',
+293 info outdated     '2.0.1',
+293 info outdated     '~2.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-zip/node_modules/concat-stream',
+293 info outdated     'typedarray',
+293 info outdated     undefined,
+293 info outdated     '0.0.6',
+293 info outdated     '0.0.6',
+293 info outdated     '~0.0.5' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-zip/node_modules/concat-stream',
+293 info outdated     'readable-stream',
+293 info outdated     undefined,
+293 info outdated     '2.0.2',
+293 info outdated     '2.0.2',
+293 info outdated     '~2.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-zip/node_modules/yazl',
+293 info outdated     'buffer-crc32',
+293 info outdated     undefined,
+293 info outdated     '0.2.5',
+293 info outdated     '0.2.5',
+293 info outdated     '~0.2.3' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin',
+293 info outdated     'chalk',
+293 info outdated     undefined,
+293 info outdated     '1.1.1',
+293 info outdated     '1.1.1',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin',
+293 info outdated     'object-assign',
+293 info outdated     '3.0.0',
+293 info outdated     '3.0.0',
+293 info outdated     '4.0.1',
+293 info outdated     '^3.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin',
+293 info outdated     'plur',
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '2.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'buffer-to-vinyl',
+293 info outdated     undefined,
+293 info outdated     '1.0.1',
+293 info outdated     '1.0.1',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'concat-stream',
+293 info outdated     undefined,
+293 info outdated     '1.5.0',
+293 info outdated     '1.5.0',
+293 info outdated     '^1.4.6' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'get-stdin',
+293 info outdated     undefined,
+293 info outdated     '4.0.1',
+293 info outdated     '5.0.0',
+293 info outdated     '^4.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'meow',
+293 info outdated     undefined,
+293 info outdated     '3.3.0',
+293 info outdated     '3.3.0',
+293 info outdated     '^3.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'optional',
+293 info outdated     undefined,
+293 info outdated     '0.1.3',
+293 info outdated     '0.1.3',
+293 info outdated     '^0.1.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'path-exists',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '2.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'stream-combiner2',
+293 info outdated     undefined,
+293 info outdated     '1.0.2',
+293 info outdated     '1.0.2',
+293 info outdated     '^1.0.2' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'through2',
+293 info outdated     '2.0.0',
+293 info outdated     '0.6.5',
+293 info outdated     '2.0.0',
+293 info outdated     '^0.6.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'vinyl-fs',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'imagemin-gifsicle',
+293 info outdated     undefined,
+293 info outdated     '4.2.0',
+293 info outdated     '4.2.0',
+293 info outdated     '^4.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'imagemin-jpegtran',
+293 info outdated     undefined,
+293 info outdated     '4.3.0',
+293 info outdated     '4.3.0',
+293 info outdated     '^4.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'imagemin-optipng',
+293 info outdated     undefined,
+293 info outdated     '4.3.0',
+293 info outdated     '4.3.0',
+293 info outdated     '^4.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/imagemin',
+293 info outdated     'imagemin-svgo',
+293 info outdated     undefined,
+293 info outdated     '4.1.2',
+293 info outdated     '4.1.2',
+293 info outdated     '^4.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/pretty-bytes',
+293 info outdated     'get-stdin',
+293 info outdated     undefined,
+293 info outdated     '4.0.1',
+293 info outdated     '5.0.0',
+293 info outdated     '^4.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/pretty-bytes',
+293 info outdated     'number-is-nan',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '^1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-imagemin/node_modules/pretty-bytes',
+293 info outdated     'meow',
+293 info outdated     undefined,
+293 info outdated     '3.3.0',
+293 info outdated     '3.3.0',
+293 info outdated     '^3.1.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/istextorbinary',
+293 info outdated     'textextensions',
+293 info outdated     undefined,
+293 info outdated     '1.0.1',
+293 info outdated     '1.0.1',
+293 info outdated     '~1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/istextorbinary',
+293 info outdated     'binaryextensions',
+293 info outdated     undefined,
+293 info outdated     '1.0.0',
+293 info outdated     '1.0.0',
+293 info outdated     '~1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/readable-stream',
+293 info outdated     'core-util-is',
+293 info outdated     undefined,
+293 info outdated     '1.0.1',
+293 info outdated     '1.0.1',
+293 info outdated     '~1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/readable-stream',
+293 info outdated     'inherits',
+293 info outdated     undefined,
+293 info outdated     '2.0.1',
+293 info outdated     '2.0.1',
+293 info outdated     '~2.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/readable-stream',
+293 info outdated     'isarray',
+293 info outdated     undefined,
+293 info outdated     '0.0.1',
+293 info outdated     '0.0.1',
+293 info outdated     '0.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/readable-stream',
+293 info outdated     'process-nextick-args',
+293 info outdated     undefined,
+293 info outdated     '1.0.2',
+293 info outdated     '1.0.2',
+293 info outdated     '~1.0.0' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/readable-stream',
+293 info outdated     'string_decoder',
+293 info outdated     undefined,
+293 info outdated     '0.10.31',
+293 info outdated     '0.10.31',
+293 info outdated     '~0.10.x' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/readable-stream',
+293 info outdated     'util-deprecate',
+293 info outdated     undefined,
+293 info outdated     '1.0.1',
+293 info outdated     '1.0.1',
+293 info outdated     '~1.0.1' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/replacestream',
+293 info outdated     'escape-string-regexp',
+293 info outdated     undefined,
+293 info outdated     '1.0.3',
+293 info outdated     '1.0.3',
+293 info outdated     '^1.0.3' ],
+293 info outdated   [ '/home/ubuntu/workspace/node_modules/gulp-replace/node_modules/replacestream',
+293 info outdated     'object-assign',
+293 info outdated     undefined,
+293 info outdated     '3.0.0',
+293 info outdated     '4.0.1',
+293 info outdated     '^3.0.0' ] ]
+294 error Failed to parse json
+294 error Unexpected end of input
+295 error File: /home/ubuntu/workspace/node_modules/gulp-subtree/node_modules/chalk/package.json
+296 error Failed to parse package.json data.
+296 error package.json must be actual JSON, not just JavaScript.
+296 error
+296 error This is not a bug in npm.
+296 error Tell the package author to fix their package.json file. JSON.parse
+297 error System Linux 3.14.13-c9
+298 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "update"
+299 error cwd /home/ubuntu/workspace
+300 error node -v v0.10.35
+301 error npm -v 1.4.28
+302 error file /home/ubuntu/workspace/node_modules/gulp-subtree/node_modules/chalk/package.json
+303 error code EJSONPARSE
+304 verbose exit [ 1, true ]
