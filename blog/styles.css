@@ -16,6 +16,15 @@ body .pixm-blog, h3, h4 {
   font-family: 'Century Gothic W01', 'Roboto', 'Helvetica', sans-serif;
 }
 
+.mdl-mega-footer--drop-down-section, .mdl-mega-footer--heading, .mdl-mega-footer__heading, .mdl-mega-footer--drop-down-section, .mdl-mega-footer--drop-down-section:nth-child(3), .mdl-mega-footer--drop-down-section:nth-child(4), .mdl-mega-footer__drop-down-section, .mdl-mega-footer__drop-down-section:nth-child(3), .mdl-mega-footer__drop-down-section:nth-child(4){
+  width: inherit;
+  padding-right: 13px;
+}
+
+footer a{
+  text-decoration: none;
+}
+
 .pixm-logo{
   margin: 33px;
   position: fixed;
