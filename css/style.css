@@ -159,6 +159,28 @@ sub a{
 	.contact .vcard a{
 		color: #55BAFF;
 	}
+	
+ul.partner-logos{
+	list-style: none;
+	padding: 9px 33px;
+	background-color: #fff;
+	text-align: center;
+	margin: auto auto 13px auto;
+}
+	ul.partner-logos li{
+		display: inline-block;
+		margin: auto 33px;
+	}
+	ul.partner-logos img{
+		width: 242px;
+	}
+	.columbiaU-logo-li{
+		margin: auto !important;
+	}
+	.columbiaU-logo{
+		width: 317px !important;
+    	margin-left: -42px !important;
+	}
 
 .footer-logo{
 	background: #2b3e50 url(https://821e7ef77464ad52348a37f571bce1d74212e02a.googledrive.com/host/0B4vEEqs-tDY1Q3poaG5FOVRUQUU) center no-repeat;
