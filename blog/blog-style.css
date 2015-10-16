@@ -106,6 +106,16 @@ footer a{
           align-items: flex-end;
   cursor: pointer;
 }
+.blog-title-header{
+  background: rgba(76, 124, 186, 0.65);
+  width: 100%;
+  padding: 33px 0 33px 0;
+  text-align: center;
+}
+.blog-title-media{
+  background: #0D72B9 url(https://fdf389ded685d79f674d91b8a9714a552bff30d0.googledrive.com/host/0B9LVk4xbDIJTN296SnJCdUJZaFU) 0px -71px !important;
+  padding: 0 !important;
+}
 .pixm-blog .mdl-card__media a,
 .pixm-blog .mdl-card__title a {
   color: inherit;
