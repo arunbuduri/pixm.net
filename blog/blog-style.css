@@ -28,20 +28,35 @@ footer a{
   margin: 6px 12px 0 0;
   color: #fff;
 }
+.back-btn{
+  padding: 2px 16px 2px 0px;
+}
+.blue-box{
+  box-shadow: 3px 3px 22px rgba(0, 0, 0, 0.63);
+  background-color: rgba(37, 117, 171, 0.88) !important;
+  color: #fff !important;
+}
+.transparent{
+  background: transparent !important;
+}
+.auto-cursor{
+  cursor: default;
+}
 .pixm-logo{
   margin: 33px;
   position: fixed;
   z-index: 2;
-  box-shadow: 3px 3px 22px rgba(0, 0, 0, 0.63);
+  border-radius: 2px;
   background-color: rgba(37, 117, 171, 0.45) !important;
   padding: 13px 33px;
 }
   .pixm-logo img{
     width: 188px;
-    margin: -15px 0 0 0;
+    margin: 15px 0 0 0;
   }
   .entry .pixm-logo{
     margin: 0 auto 0 0;
+    padding: 3px 26px 18px 5px;
   }
   
 .fixed{
@@ -128,6 +143,9 @@ footer a{
 .pixm-blog .mdl-card__title a {
   color: inherit;
 }
+.support-blog-home{
+  padding: 22px !important;
+}
 .pixm-blog .mdl-card__supporting-text {
   width: 100%;
   padding: 16px;
@@ -138,8 +156,8 @@ footer a{
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .pixm-blog .mdl-card__supporting-text strong {
   font-weight: 400;
