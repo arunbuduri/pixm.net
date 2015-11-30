@@ -167,3 +167,16 @@ sub a{
   color: #fff;
   border: 1px solid #476A8B;
 }
+
+/*
+Notes on @media for mobile:
+ - http://ux.stackexchange.com/questions/41762/responsive-website-min-width
+ - https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+*/
+@media screen and (min-width : 290px) and (max-width: 1024px) {
+ .contact .vcard{left: 10%;}
+ ul.partner-logos li{padding: 13px 0;}
+ .media-coverage ul li img{margin: 0 33px;}
+ #anch-mission .section-header{width: inherit;}
+ .item .carousel-caption{width: inherit;}
+}
