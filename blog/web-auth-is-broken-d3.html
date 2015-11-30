@@ -1,0 +1,172 @@
+<!doctype html>
+<!--
+  Pixm Blog
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pixm Blog</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Pixm Blog">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <script type="text/javascript" src="https://fast.fonts.net/jsapi/32ca2648-04e7-43fb-ade9-4155e7aa8e0e.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="material.min.css">
+    <link rel="stylesheet" href="blog-style.css">
+    <style>
+      #view-source {
+        position: fixed;
+        display: block;
+        right: 0;
+        bottom: 0;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        z-index: 900;
+        box-shadow: 3px 3px 22px rgba(0, 0, 0, 0.63);
+        border: 2px solid #2575AB;
+        background-color: rgba(37, 117, 171, 0.88) !important;
+      }
+      .blog-title-media {
+        background: #0D72B6 url(https://5e4155bb8d53ee6fd00c001bee9766871d445210.googledrive.com/host/0B9LVk4xbDIJTSEFld2s1X01xYVE) 0px -64px !important;
+      }
+    </style>
+  </head>
+  <body class="entry">
+    
+    <span class="pixm-logo">
+      <a id="tt2" class="back-btn mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="index.html" title="go back" role="button">
+        <i class="material-icons back-arrow" role="presentation">arrow_back</i>
+      </a>
+      <a href="http://pixm.net/">
+        <img src="https://01e54c8ab3d8d647ddae5908752d91ff87d506dd.googledrive.com/host/0B9LVk4xbDIJTbk1rOG4wYVVmWE0" alt="white pixm logo"/>
+      </a>
+    </span>
+    <div class="mdl-tooltip mdl-tooltip--large" for="tt2">
+      Blog
+    </div>
+    
+    <div class="pixm-blog pixm-blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">
+      <main class="mdl-layout__content">
+        <div class="demo-back fixed">
+        </div>
+        <div class="pixm-blog__posts mdl-grid">
+          <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+            <div class="blog-title-media mdl-card__media mdl-color-text--grey-50" style="background:#0D72B9">
+              <h3 class="blog-title-header">Web Authentication is Broken</h3>
+            </div>
+            <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+              <div class="minilogo"></div>
+              <div>
+                <span>November 30th 2015</span>
+              </div>
+            </div>
+            <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+              <p>
+                When we scratch our heads at the ongoing crisis of stolen passwords and account hijackings, it seems our first reaction is to enforce longer passwords with more special characters, add more security layers to login forms, and push for more advanced forms of biometric authentication. It is important to understand, however, that none of these additions affect the mechanics of a phishing attack, which is by far the predominant form of password theft.  </p>
+              <p>
+                Phishing archives are chock full of login forms with fields like “mother’s maiden name”, social security numbers, and other personal information. It is actually pretty amusing to observe how easy it is for adversaries to mimic the safety redundancies and good intentions of their target brands. These two screenshots are actual phishing pages verified on PhishTank on November 30th. Repositories like PhishTank are replete with examples of private information requests and “Report Phishing” links. If biometric logins eventually become as common online as they are on devices, then it is likely that phishing campaigns will rapidly follow suit. So while these security trends burden the user with a larger data transaction, they don’t make it any harder for a social engineer to mimic. </p>
+                <br/>
+                <img style="margin: auto auto auto -20px;" src="https://973bcca55cd48a0f67819238e4f81f45fbe6c276.googledrive.com/host/0B9LVk4xbDIJTZ21hT1JxTTNpR0E" alt="phishing page example"/>
+                <br/>
+              <p>
+                In fact, if an adversary steals social security, credit card or even fingerprint data, is that scenario better or worse than a stolen password? The answer is obvious. The more personal the data, the greater its liability. But most people have a hard time prioritizing security around data that is fixed and unique to their identity compared to data that is arbitrary and resettable. As the number of biometric identifiers increases beyond fingerprints to face, iris, and genetic forms of information, we need to remember that these forms of authentication may offer convenience but they do not bring security.</p>
+                <!--<br/>
+                <img src="https://2ceb1a679de4f9bc6fd2e4ef0be89d47e5be37d8.googledrive.com/host/0B9LVk4xbDIJTYTIzQk9yRm1rY0k" alt="phishing page example"/>
+                <br/>-->
+              <p>
+                The underlying neglected principle is that online authentication requires two entities to verify their identities to each other, which is not a requirement for device authentication. To successfully login to your bank website, for example, not only does your bank need to verify your identity, but you also need assurance that you are in fact logging into your bank. The latter assurance is often taken for granted on account of digital certificate and PKI infrastructures that provide ‘mutual’ or ‘two-way’ authentication. However, unlike the reliable password verification the server side performs, the client side of the authentication includes a user decision.  </p>
+              <p>
+                While servers can generally be counted upon to execute a verification protocol--running a block of code and doing a database lookup--the user makes decisions much more on instincts and intuition. Between browsing and emailing, a typical user may encounter hundreds of web URLs each day. Even the most savvy Internet users must learn quick ways to determine whether a page is legitimate. However, these patterns that rapidly influence a user to trust a site are easily mimicked, as phishing archives remind us how social engineers consistently exploit these factors. </p>
+              <p>
+                While servers can generally be counted on to execute a simple password protocol--running a block of code and doing a database lookup--the user relies on instincts and intuition for fast decision making. Between browsing and emailing, a typical user or analyst may encounter hundreds or thousands of web URLs each day. Even the most savvy Internet users must learn quick ways to determine whether a page is legitimate. However, these patterns that rapidly influence a user to trust a site are easily mimicked, as phishing archives remind us how social engineers consistently exploit these factors. </p>
+              <p>
+                Yet our authentication efforts still focus on stacking more assurances against the user, as if more login steps would solve the problem. When many extra assurances like social security numbers and mother’s maiden names are stacked on the user side, it only magnifies the user vulnerability. It is this imbalance of assurances that breaks online authentication. No matter the quantity and quality of password information the user provides to login, if assurances remain stacked against the user, the phishing crisis we are living through will continue to increase.</p>
+              <p>
+                Pixm is fixing web authentication by balancing assurances. Using artificial intelligence (AI) that automatically recognizes the same patterns users associate with an online entity, users can be protected from entering information on a fraudulent page. Just like an individual has uniquely identifiable features, the brands that individual interacts with online also have unique and familiar components of their user experience. When these features are automatically detected and authorized by browsers, honeypots, and other internet security infrastructures, then hackers will no longer be able to successfully impersonate brands to their customers and employees. Once users are supported by AI that automatically recognizes the patterns they trust, then the user side will have the same reliability as the server side. This is what balanced assurance means. Look out for future blog posts to explore this technology in more depth.</p>
+              <p>
+                Artificial intelligence is emerging with increasing competence around its ability to mimic and even surpass human performance in pattern recognition. Advances in machine learning and processing hardware in recent years have stirred up much excitement about new biometrics applications. However, Pixm’s philosophy is first to ask how these advances can serve the individual and enhance user privacy, rather than how they can increase individual exposure. Our intent is to use this new force to balance and fix web authentication, rather than increasing the burden and risk on the user. Stay tuned for updates on our platform.</p>
+              <br/><br/><br/>
+            </div>
+          </div>
+        </div>
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--middle-section">
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <a href="http://pixm.net/#anch-mission">
+                <h1 class="mdl-mega-footer--heading">Mission</h1>
+              </a>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <a href="http://pixm.net/#anch-stats">
+                <h1 class="mdl-mega-footer--heading">Threat Landscape</h1>
+              </a>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <a href="http://pixm.net/#anch-mission">
+                <h1 class="mdl-mega-footer--heading">Media</h1>
+              </a>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <a href="http://pixm.net/#anch-contact">
+                <h1 class="mdl-mega-footer--heading">Contact</h1>
+              </a>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <a href="http://pixm.net/#anch-signup">
+                <h1 class="mdl-mega-footer--heading">Sign Up</h1>
+              </a>
+            </div>
+          </div>
+          <div class="mdl-mega-footer--bottom-section">
+            &copy; 2015 - Pixm. All rights reserved.
+          </div>
+        </footer>
+      </main>
+      <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <a href="http://pixm.net/#anch-signup" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">
+      Subscribe
+    </a>
+    <script src="../material.min.js"></script>
+  </body>
+</html>
