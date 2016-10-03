@@ -61,7 +61,7 @@ body{
 	}
 
 .slideshow .item-1{
-	background: url("https://0fa6c63c1218f81d45e0b49623e52fb7145d1ff8.googledrive.com/host/0B9LVk4xbDIJTdGI4RHY5VG0yRVU") 0 -83px !important;
+	background: url("http://i.imgur.com/WOHrU3G.jpg") 0 -83px !important;
 }
 	.slideshow .item-1 .carousel-caption, .slideshow .item-2 .carousel-slogan{
 		background: rgba(0, 0, 0, 0.65) none repeat scroll 0% 0%;
@@ -76,12 +76,12 @@ body{
 	.slideshow .item-2 .carousel-slogan{
 		padding: 199px 0px 323px;
 	}
-	.slideshow .item-2{
-		background: url("https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/art-piece-1-big.jpg") no-repeat scroll 50% 0px transparent;
-	}
-	.slideshow .item-3{
-		background: url("https://31dc80f7bae58e3a715c0cee45dadaa2d8916d4d.googledrive.com/host/0B9LVk4xbDIJTNWFYN21JZjh1Rm5PRUNtSGh5REQ4dXNrV2Zr") center;
-	}
+	/*.slideshow .item-2{*/
+	/*	background: url("https://4ef50bd68644b1de2c58493a765294b37efa3df3.googledrive.com/host/0B9LVk4xbDIJTMVE5UDM0RUpZVVU/art-piece-1-big.jpg") no-repeat scroll 50% 0px transparent;*/
+	/*}*/
+	/*.slideshow .item-3{*/
+	/*	background: url("https://31dc80f7bae58e3a715c0cee45dadaa2d8916d4d.googledrive.com/host/0B9LVk4xbDIJTNWFYN21JZjh1Rm5PRUNtSGh5REQ4dXNrV2Zr") center;*/
+	/*}*/
 	.item .carousel-caption{
 		width: 909px;
 	}
@@ -106,7 +106,7 @@ body{
 		font-size: 23px;
 	}
 #anch-mission{
-	background: url("https://f9fd3452552d1cf7f1b52389e98e38ecd9851b0b.googledrive.com/host/0B9LVk4xbDIJTSWF5XzJYZW1vM2s") 33px 0px repeat-x;
+	background: url("http://i.imgur.com/YWY9AMx.jpg") 33px 0px repeat-x;
 	height: 733px;
 	padding: 237px 0 75px;
 }
@@ -183,7 +183,7 @@ ul.partner-logos{
 	}
 
 .footer-logo{
-	background: #2b3e50 url(https://821e7ef77464ad52348a37f571bce1d74212e02a.googledrive.com/host/0B4vEEqs-tDY1Q3poaG5FOVRUQUU) center no-repeat;
+	background: #2b3e50 url(../images/pixm-m-white.svg) center no-repeat;
     padding: 71px 72px;
     margin: -43px auto auto;
     display: block;
