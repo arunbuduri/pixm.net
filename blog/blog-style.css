@@ -1,5 +1,5 @@
 body::before {
-    background-image: url('http://i.imgur.com/XklSqns.jpg');
+    background-image: url('//i.imgur.com/XklSqns.jpg');
     background-size: cover;
     background-attachment: fixed;
     content: '';
@@ -136,7 +136,7 @@ footer a{
   text-align: center;
 }
 .blog-title-media{
-  background: #0D72B9 url(http://i.imgur.com/PKhh8NW.jpg) 0px -71px !important;
+  background: #0D72B9 url(//i.imgur.com/PKhh8NW.jpg) 0px -71px !important;
   padding: 0 !important;
 }
 .pixm-blog .mdl-card__media a,

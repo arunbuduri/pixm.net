@@ -61,7 +61,7 @@ body{
 	}
 
 .slideshow .item-1{
-	background: url("http://i.imgur.com/WOHrU3G.jpg") 0 -83px !important;
+	background: url("//i.imgur.com/WOHrU3G.jpg") 0 -83px !important;
 }
 	.slideshow .item-1 .carousel-caption, .slideshow .item-2 .carousel-slogan{
 		background: rgba(0, 0, 0, 0.65) none repeat scroll 0% 0%;
@@ -106,7 +106,7 @@ body{
 		font-size: 23px;
 	}
 #anch-mission{
-	background: url("http://i.imgur.com/YWY9AMx.jpg") 33px 0px repeat-x;
+	background: url("//i.imgur.com/YWY9AMx.jpg") 33px 0px repeat-x;
 	height: 733px;
 	padding: 237px 0 75px;
 }
