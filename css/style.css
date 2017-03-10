@@ -138,11 +138,11 @@ sub a{
 .slideshow .btn{
 	box-shadow: 3px 3px 22px rgba(0, 0, 0, 0.63);
 	border: 2px solid #2575AB;
-    background-color: rgba(37, 117, 171, 0.27);
+    background-color: rgba(239, 108, 0, 0.75);
 }
 	.slideshow .btn:hover{
-		border: 2px solid #2575AB;
-		background-color: #2575AB;
+		border: 2px solid #EF6C00;
+		background-color: #EF6C00;
 	}
 
 .contact .alert {
